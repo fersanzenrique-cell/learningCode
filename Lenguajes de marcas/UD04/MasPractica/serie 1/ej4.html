@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>título</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <script>
+
+            function main () {
+
+                let numCasos = Number(prompt('Cuantos números quiere comparar',2)); // Number tambien saca el valor númerico
+                let mayor = Number.MIN_SAFE_INTEGER; // Número entero menor
+                
+                while (numCasos > 0) {
+                    let num = Number(prompt('Introduzca un número',0))
+                    casoDeUso(num,mayor); // Esto guarda las variables en la función
+                    --numCasos;
+                }
+
+                document.write(mayor);
+
+            }
+
+            function casoDeUso(num,mayor) { // Esto carga las variables en la funcion, ya que no son alcanzables
+                if (num > mayor) {
+                    mayor = num;
+                }
+                return mayor;
+            }
+
+            main(); // LLama a la función
+
+        </script>
+        <div>
+            
+        </div>
+    </body>
+</html>

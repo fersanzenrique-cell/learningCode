@@ -1,0 +1,321 @@
+<!--La página esta dividida en:
+Cabecera: header
+Menú de navegación, que permite navegar en la página, añadida de forma extra el enlace: "inicio": nav
+Cuerpo, se dividirá en cuatro secciones, añadiendo como extra la sección general: section
+Pie de página: footer-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Albums más escuchados</title>
+    </head>
+    <body>
+        <header>
+            <style>
+                @keyframes animacionletra1 {
+                    0%  { transform: translate(-20px, 0) rotateZ(1deg) scale(2); }
+                    20%  { transform: translate(-20px, 0) rotateZ(1deg) scale(1); }
+                    40%  { transform: translate(0, 20px) rotateZ(1deg) scale(0.9); }
+                    60%  { transform: translate(20px, 0) rotateZ(-1deg)scale(1); }
+                    80%  { transform: translate(0, -20px) rotateZ(-1deg) scale(0.8); }
+                    100% { transform: translate(-20px, 0) rotateZ(1deg) scale(2); }
+                }
+                .textoanimado {
+                    animation: 
+                        animacionletra1 3s ease-in-out infinite;     
+                }
+            </style>
+            <h1 id="inicioancla" style="text-align: center;" class="textoanimado">¡LOS ÁLBUMS Y CANCIONES MÁS ESCUCHADAS!</h1>
+        </header>
+        <section> <!--Sección general-->
+            <style>
+                .field1 {
+                    background: linear-gradient(to top ,#e4e7f8  50%, #6667AB 100%);
+                }
+            </style>
+            <fieldset style="text-align: center;" class="field1">
+                <h2 style="text-transform: uppercase">¡Canción más votada!</h2>
+                <h2>Golden - 
+                    <a href="https://music.apple.com/us/artist/huntr-x/1478164763?l=es-MX" target="_blank">HUNTR/X</a></h2>
+                <img src="imagen.jpg" width="300">
+                <h3 style="text-transform: uppercase">¡¡Con 44 millones de votos!!</h3>
+                <nav>
+                    <a href="#cancionvotadaancla"><h4>¿Quién es HUNTR/X?</h4></a>
+                    <a href="#topancla">
+                        <h4 style="text-transform: uppercase">¡y mira las 10 mejores canciones del momento!</h4>
+                    </a>
+                    <a href="#votaancla"><h2 style="text-transform: uppercase;">¡Vota tu canción favorita aqui!</h2></a>
+                </nav>
+                <hr/>
+                <style>
+                    .tabla1 {
+                        border: 0px;
+                        padding: 5px;
+                        background-color: #e4e7f8;
+                    }
+                </style>
+                <table style="text-align: center; margin: 20px auto;" class="tabla1">
+                    <tbody>
+                        <caption>
+                            <h2 style="text-transform: uppercase;">¡Top 3 Albums más escuchados!</h2>
+                        </caption>
+                        <tr class="tabla1">
+                            <th>DeBÍ TiRAR MáS FOToS - Bad Bunny</th>
+                            <th>CUARTO AZUL - Aitana</th>
+                            <th>BUENAS NOCHES - Quevedo</th>
+                        </tr>
+                        <tr>
+                            <td class="tabla1"><img src="badbunny.jpg" width="300"></td>
+                            <td class="tabla1"><img src="aitana.jpg" width="300"></td>
+                            <td class="tabla1"><img src="quevedo.jpg" width="300"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+            </fieldset>
+        </section>
+        <section> <!--Canción más votada-->
+            <fieldset>
+                <style>
+                    .divhorizontal1 {
+                        width: 50%;
+                        height: 10%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .divhorizontal2 {
+                        float: left;
+                        width: 33.3%;
+                        height: 1%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                </style>
+                
+                <div style="float:left;" class="divhorizontal1">
+                    <h1 id="cancionvotadaancla" >HUNTR/X y su éxito GOLDEN</h1>
+                    <p><b>Huntr/x</b> es un grupo que ha sabido marcar un estilo propio dentro de la escena alternativa, combinando synthpop, rock experimental y letras cargadas de introspección urbana. Su disco más destacado, Neon Horizons, refleja tanto su madurez musical como el contexto social actual: un mundo en constante cambio donde la búsqueda de identidad y libertad es más importante que nunca. La canción que da nombre a la banda, “Golden-Huntr/x”, captura perfectamente su energía única, con sintetizadores brillantes y guitarras que transmiten emoción y fuerza. Gracias al apoyo de su comunidad online, la banda acaba de ganar un concurso de votos en una página web, un reconocimiento que celebra tanto su talento como la conexión directa con sus fans. Este triunfo no solo confirma su relevancia dentro del panorama musical, sino que también deja claro que la música sigue siendo un puente entre artistas y oyentes.</p>
+                    <p>Puedes escuhar HUNTR/X en:</p>
+                    <div class="divhorizontal2">
+                        <a href="http://www.instagram.com">
+                            <img src="instagram.gif" alt="" width="60" height="60">
+                        </a>
+                    </div>
+                    <div class="divhorizontal2">
+                        <a href="http://www.facebook.com">
+                            <img src="facebook.gif" alt="" width="60" height="60">
+                        </a>
+                    </div>
+                    <div class="divhorizontal2">
+                        <a href="http://www.x.com">
+                            <img src="twitter.gif" alt="" width="60" height="60">
+                        </a>
+                    </div>
+                </div>
+                <div style="float:right; text-align:center;" class="divhorizontal1">
+                    <img src="demonhunters.jpg" width="400">
+                </div>
+                <div style="clear:both;"></div>
+            </fieldset>
+        </section>
+        <section> <!--Top 10 mejores canciones del momento-->
+            <fieldset style="text-align: center;">
+                <h4 style="text-transform:uppercase;">Y detrás de golden....</h4>
+                <style>
+                    .div10canciones {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        background-color: #e3e6f1;
+                        padding: 20px;
+                        text-align: center;
+                    }
+                    .cancion {
+                        max-width: 220px;
+                        background-color: white;
+                        padding: 20px;  
+                    }
+                    .cancion img {
+                        width: 100%;
+                        margin-top: 8px; 
+                    }
+                </style>
+                <caption>
+                    <h1 id="topancla" style="text-transform: uppercase;">Las 10 mejores canciones escuchadas del momento</h1>
+                </caption>
+                <div class="div10canciones">
+                    <div class="cancion">
+                        <div><b>1. La Morocha</b></div>
+                        <div>Luck Ra</div>
+                        <img src="lamorocha.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>2. La Plena</b></div>
+                        <div>W Sound</div>
+                        <img src="laplena.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>3. Tú Vas Sin</b></div>
+                        <div>RelsB</div>
+                        <img src="tuvassin.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>4. Capaz (Merengueton)</b></div>
+                        <div>Alleh</div>
+                        <img src="capaz.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>5. No Tiene Sentido</b></div>
+                        <div>Beéle</div>
+                        <img src="notienesentido.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>6. Si Antes Te Hubiera</b></div>
+                        <div>KAROL G</div>
+                        <img src="siantestehubiera.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>7. Me Mareo</b></div>
+                        <div>Kidd Voodoo</div>
+                        <img src="memareo.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>8. Yogurcito (Remix)</b></div>
+                        <div>Blessd</div>
+                        <img src="yogurcito.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>9. Dónde Te Escondes?</b></div>
+                        <div>Yapi</div>
+                        <img src="dondetescondes.jpg" width="200">
+                    </div>
+                    <div class="cancion">
+                        <div><b>10. The Fate of Ophelia</b></div>
+                        <div>Taylor Swift</div>
+                        <img src="thefateofophelia.jpg" width="200">
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+        <section>
+            <style>
+                .fondo {
+                    position: relative;
+                    background-image: url('fondovotar.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-position: center;
+                    color: white;
+                    padding: 60px;
+                    scale: 1.1;
+                }
+                .fondo::before {
+                    content:"";
+                    position: absolute;
+                    inset: 0;
+                    background: rgba(128, 128, 128, 0.2);
+                    z-index: 1;
+                    pointer-events: none;
+                }
+            </style>
+            <form> <!--Formulario-->
+                <fieldset class="fondo">
+                    <h1 id="votaancla" style="text-transform: uppercase; text-align: center;">¡Vota tu canción favorita!</h1>
+                    <hr/>
+                    <style>
+                        .divhorizontal3 {
+                        width: 40%;
+                        height: 10%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 10px;
+                    }
+                    </style>
+                    <article>
+                        <div style="float: left; text-align:center;" class="divhorizontal3">
+                            <h3>Datos del votante</h3>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre">
+                            <br/>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" name="apellidos">
+                            <br/>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" name="correo">
+                            <br/>
+                            <label for="edad">Edad (entre 18 y 100 años):</label>
+                            <input type="number" name="edad" min="18" max="100">
+                            <br/>
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                            <br/>
+                            <label for="foto">Fotografía reciente:</label>
+                            <input type="file" name="foto">
+                            <br/>
+                        </div>
+                    </article>
+                    <article>
+                        <div style="float: right; text-align:center;" class="divhorizontal3">
+                            <h3>Datos de la canción</h3>
+                            <label for="nombregrupo">Grupo:</label>
+                            <input type="text" name="nombregrupo">
+                            <br/>
+                            <label for="nombrecancion">Canción:</label>
+                            <input type="text" name="nombrecancion">
+                            <br/>
+                            <label for="nombrealbum">Álbum:</label>
+                            <input type="text" name="nombrealbum">
+                            <br/>
+                            <label for="fechacancion">Fecha de publicación:</label>
+                            <input type="date" name="fechacancion">
+                            <br/>
+                            <label for="estilomusical">Estilo Músical:</label>
+                            <select name="estilomusical">
+                                <option value="pop">Pop</option>
+                                <option value="español">Español</option>
+                                <option value="rock">Rock</option>
+                                <option value="metal">Metal</option>
+                                <option value="reggaeton">Reggaetón</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <br/>
+                            <label for="desc">¿Por qué te gusta esta canción?</label>
+                            <br/>
+                            <textarea name="desc" rows="3" cols="40"></textarea>
+                            <br/>
+                            <br/>
+                        </div>
+                    </article>
+                    <article style="float: right;">
+                        <br/>
+                        <h3>Consentimiento y condiciones</h3>
+                        <label for="pregunta">¿Cómo nos conociste?</label>
+                        <select name="pregunta">
+                            <option value="respuesta1">A través de un amigo</option>
+                            <option value="respuesta2">A través de los 40 principales</option>
+                            <option value="respuesta3">A través de Google</option>
+                            <option value="respuesta4">Otro</option>
+                        </select>
+                        <br/>
+                        <input type="checkbox" name="condiciones">
+                        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                        <br/>
+                        <br/>
+                        <label for="casilla1">¿Listo?</label>
+                        <input type="submit" name="casilla1" value="Votar">
+                        <br/>
+                        <label for="casilla2">¿Borrar formulario?</label>
+                        <input type="reset" name="casilla2" value="Borrar formulario">
+                    </article>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <br/>
+            <br/>
+            <a href="#inicioancla"><h3>¿Volver al inicio?</h3></a>
+            <p>Enrique Fernández Sanz 1ºDAM</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM 5</title>
+</head>
+
+<body>
+
+    <button onclick="fondo('img1.jpg')">Fondo imagen 1</button>
+    <button onclick="fondo('img2.jpg')">Fondo imagen 2</button>
+    <button onclick="fondo('img3.jpg')">Fondo imagen 3</button>
+
+    <script>
+        function fondo(img) {
+            document.body.style.backgroundImage = "url(" + img + ")";
+        }
+    </script>
+
+</body>
+
+</html>

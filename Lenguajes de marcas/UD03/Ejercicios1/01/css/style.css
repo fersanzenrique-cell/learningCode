@@ -1,0 +1,24 @@
+p {
+    background-color: grey;
+}
+.clase {
+    color: red;
+}
+#ident {
+    color: green;
+}
+* {
+    font-style: italic;
+}
+p a {
+    background-color: orange;
+}
+h3, small {
+    color: blue;
+}
+div > small {
+    background-color: yellow;
+}
+small + span {
+    color: pink;
+}

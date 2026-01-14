@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana;
+    font-size: 1.2em;
+}
+
+table, th, td {
+    border-collapse:collapse;
+    border: 10px, groove rgb(163, 201, 185);
+   
+}
+
+th {
+    text-transform:uppercase;
+}
+
+td {
+    table-layout:inherit;
+}
+
+td:nth-child(even) {
+    background-color: aliceblue;
+}
+
+td:nth-child(odd) {
+    background-color: antiquewhite;
+}

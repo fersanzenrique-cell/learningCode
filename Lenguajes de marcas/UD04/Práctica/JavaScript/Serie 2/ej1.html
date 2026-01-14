@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Añadir alumnos</title>
+
+    <script>
+        function addText() {
+
+            var p = document.createElement("p");
+    
+            var texto = document.createTextNode("He sido añadido con javascript");
+            
+            p.appendChild(texto);
+
+            document.body.appendChild(p);
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <button onclick="addText()">click here</button>
+
+</body>
+
+</html>

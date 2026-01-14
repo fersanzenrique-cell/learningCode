@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TOP 10 GRUPOS MUSICALES</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- mensajes informativos -->
+  <h1 id="mensaje">Bienvenido al ranking</h1>
+
+  <!-- tabla del ranking -->
+  <h2>TOP 10 GRUPOS MUSICALES</h2>
+  <table id="tablaRanking" class="tabla-listado">
+    <caption>Listado de canciones</caption>
+    <thead>
+      <tr>
+        <th>Puesto</th>
+        <th>Grupo</th>
+        <th>Canción</th>
+        <th>Usuario</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Luck Ra</td>
+        <td>La Morocha</td>
+        <td>Carlos</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>W Sound</td>
+        <td>La Plena</td>
+        <td>María</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>RelsB</td>
+        <td>Tú Vas Sin</td>
+        <td>Sergio</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Alleh</td>
+        <td>Capaz (Merengueton)</td>
+        <td>Lucía</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Beéle</td>
+        <td>No Tiene Sentido</td>
+        <td>Diego</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>KAROL G</td>
+        <td>Si Antes Te Hubiera</td>
+        <td>Marta</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Kidd Voodoo</td>
+        <td>Me Mareo</td>
+        <td>Pablo</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Blessd</td>
+        <td>Yogurcito (Remix)</td>
+        <td>Raquel</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Yapi</td>
+        <td>Dónde Te Escondes?</td>
+        <td>Sofía</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Taylor Swift</td>
+        <td>The Fate of Ophelia</td>
+        <td>Luis</td>
+        <td><img class="trash" alt="Borrar" onclick="deleteRow(this)"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- formulario para añadir canciones -->
+  <form id="formCancion">
+    <label>
+      Nombre del grupo:
+      <input type="text" id="grupo">
+    </label>
+    <label>
+      Nombre de la canción:
+      <input type="text" id="cancion">
+    </label>
+    <label>
+      Nombre de usuario:
+      <input type="text" id="usuario">
+    </label>
+    <button type="submit">Añadir canción</button>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

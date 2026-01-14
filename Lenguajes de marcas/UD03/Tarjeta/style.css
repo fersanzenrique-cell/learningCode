@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Amore Christmas';
+    src: url('./Fuentes/Amore Christmas.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div:nth-child(1) {
+    border: solid black 4px;
+    padding: 70px;
+    height: 600px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    text-align: center;
+}
+div:nth-child(2) {
+    border: solid black 4px;
+    width: 40%;
+    height: 60%;
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 2px;
+    bottom: 50px;
+}
+.nombre {
+    font-family: "Amore Christmas";
+    font-size: 100px;
+    
+}
+.imagen {
+    width: 100px;
+    height: 100px;
+    
+}

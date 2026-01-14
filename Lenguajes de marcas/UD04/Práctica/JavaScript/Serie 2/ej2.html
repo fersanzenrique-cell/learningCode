@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Añadir alumnos</title>
+
+    <script>
+        function addText() {
+
+            var texto = document.getElementById("alumno").value;
+
+            var p = document.createElement("p");
+
+            p.textContent = texto;
+
+            document.body.appendChild(p);
+
+            document.getElementById("alumno").value = "";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Alumnos de la clase DAW</h1>
+    <p>Escriba el nombre y pulse el botón:</p>
+
+    <p>
+        <input id="alumno" type="text">
+        <button onclick="addText()">Añadir</button>
+    </p>
+
+</body>
+
+</html>

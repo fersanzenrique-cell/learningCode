@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda>
+<agenda>
+    <contacto>
+        <nombre>Mamá</nombre>
+        <telefono>67-676-676</telefono>
+        <email>mamacorreo@gmail.com</email>
+    </contacto>
+    
+    <contacto>
+        <nombre>Papá</nombre>
+        <telefono>36-042-324</telefono>
+        <email>papacorreo@gmail.com</email>
+    </contacto>
+    
+    <contacto>
+        <nombre>Hermano</nombre>
+        <telefono>65-564-342</telefono>
+        <email>hermanocorreo@gmail.com</email>
+    </contacto>
+    
+</agenda>

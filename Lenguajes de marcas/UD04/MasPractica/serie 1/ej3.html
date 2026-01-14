@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>título</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <script>
+
+            do {
+
+                var a = +prompt('numero a',0); //El más (+) delante del prompt lo convierte en número
+                alert(typeof a);
+                var b = +prompt('numero b',0);
+                alert(typeof b);
+                if(isNaN(a) || isNaN(b)) {
+                    alert("Introduce números sin letras");
+                }
+
+            } while(isNaN(a) || isNaN(b));
+
+            
+            // var c = parseInt(a)+parseInt(b);
+            // alert(c);
+            // Cambio de string a int
+            alert(a + b);
+
+        </script>
+        <div>
+            
+        </div>
+    </body>
+</html>

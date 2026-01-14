@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario Gracioso — Práctica</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1>Formulario Gracioso</h1>
+      <p>Presiona el <button id="botonLoco" type="button" class="botonLoco">¡Botón Loco!</button> y verás cómo cambian todos los demás controles. Presiona F5 para volver a la normalidad.</p>
+    </header>
+
+    <main class="formulario">
+      <form id="frikiForm" novalidate>
+        <fieldset>
+          <legend>Datos personales</legend>
+
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" name="nombre" type="text" required placeholder="Ej.: Lola Lolita">
+
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" placeholder="ejemplo@correo.com" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Estado de ánimo</legend>
+          <label><input type="radio" name="animo" value="feliz" required> Feliz</label>
+          <label><input type="radio" name="animo" value="triste"> Triste</label>
+          <label><input type="radio" name="animo" value="excitado"> Excitado</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Extras (puedes marcar varios)</legend>
+          <label><input type="checkbox" name="extras" value="confeti"> Confeti</label>
+          <label><input type="checkbox" name="extras" value="unicornio"> Unicornio</label>
+          <label><input type="checkbox" name="extras" value="robot"> Robot</label>
+        </fieldset>
+
+        <label for="lista">Elige tu animal favorito:</label>
+        <select id="lista" name="lista" required>
+          <option value="">-- Elige --</option>
+          <option value="perro">Perro</option>
+          <option value="gato">Gato</option>
+          <option value="dragon">Dragón</option>
+        </select>
+
+        <label for="comentarios">Comentarios (10–200 caracteres):</label>
+        <textarea id="comentarios" name="comentarios" rows="4" minlength="10" maxlength="200" placeholder="Escribe algo gracioso..." required></textarea>
+
+        <div class="buttons">
+          <button type="submit" id="submitBtn">Enviar</button>
+          <button type="reset">Reiniciar</button>
+          <button type="button" id="miniBtn">Botón normal</button>
+        </div>
+
+        <div id="status" class="status" aria-live="polite"></div>
+      </form>
+    </main>
+
+    <footer>
+      <p class="nota">(Consejo: si todo se vuelve demasiado loco, pulsa F5)</p>
+    </footer>
+  </body>
+</html>

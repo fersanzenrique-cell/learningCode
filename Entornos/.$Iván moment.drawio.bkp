@@ -1,0 +1,242 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.7 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.7">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-23" target="2x8ingkKnPHR1Re_QFZv-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-18" target="2x8ingkKnPHR1Re_QFZv-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-27" value="Después de ir al hospital,&lt;div&gt;&amp;nbsp;al dia siguiente:&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-26">
+          <mxGeometry x="0.101" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-1" target="2x8ingkKnPHR1Re_QFZv-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="340" />
+              <mxPoint x="580" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-12" target="2x8ingkKnPHR1Re_QFZv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="240" />
+              <mxPoint x="259" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-1" target="2x8ingkKnPHR1Re_QFZv-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="340" />
+              <mxPoint x="580" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-14" value="Iván decide ignorar&lt;div&gt;&amp;nbsp;a la profesora&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-13">
+          <mxGeometry x="-0.019" y="-4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-1" value="&quot;¡Iván, sal de clase!&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="329" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="2x8ingkKnPHR1Re_QFZv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-5" value="La profesora dice:" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-4">
+          <mxGeometry x="0.0152" y="4" relative="1" as="geometry">
+            <mxPoint x="5" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-6" target="2x8ingkKnPHR1Re_QFZv-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="746" y="913" />
+              <mxPoint x="683" y="913" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-6" value="Por la puerta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="615" width="120" height="30.31" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="745.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-7" target="2x8ingkKnPHR1Re_QFZv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-21" value="Iván sufre de graves lesiones&amp;nbsp;&lt;div&gt;al caerse de un segundo piso y:&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-20">
+          <mxGeometry x="-0.625" y="-2" relative="1" as="geometry">
+            <mxPoint x="-16" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-7" value="La ventana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="615" width="120" height="30.62" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-12" value="Iván se queda sentado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="329" y="220" width="121" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-18" value="Sale vivo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="745.31" width="120" height="34.69" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-23" target="2x8ingkKnPHR1Re_QFZv-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-29" value="Y una vez él entra en clase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-28">
+          <mxGeometry x="0.196" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-73" value="¿Qué actitud tendrá&lt;div&gt;&amp;nbsp;ahora Iván?&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-28">
+          <mxGeometry x="-0.9073" y="-1" relative="1" as="geometry">
+            <mxPoint x="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-23" value="Ivan vuelve a entrar en clase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="336" y="890" width="114" height="45.31" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-32" target="2x8ingkKnPHR1Re_QFZv-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-32" value="La profesora&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;manda a Iván a por un parte&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="656.5" y="220" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-36" target="2x8ingkKnPHR1Re_QFZv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-65" target="2x8ingkKnPHR1Re_QFZv-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-36" value="Iván sale de clase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="470" width="120" height="40.31" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-59" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="99" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="2x8ingkKnPHR1Re_QFZv-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448.9999999999999" y="341.98" as="sourcePoint" />
+            <mxPoint x="510" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="449" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-89" value="¿Qué hará&amp;nbsp;&lt;div&gt;Ivan ahora?&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-63">
+          <mxGeometry x="0.0593" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-62" target="2x8ingkKnPHR1Re_QFZv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-88" value="Iván decide hacer&amp;nbsp;&lt;div&gt;caso a la profesora&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-87">
+          <mxGeometry x="-0.221" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-62" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-36" target="2x8ingkKnPHR1Re_QFZv-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575.5" y="530" as="sourcePoint" />
+            <mxPoint x="455.5" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-67" value="Yendosé por" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-66">
+          <mxGeometry x="-0.6728" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-65" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="610.31" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-68" value="Iván se comporta mal en clase" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#6D1F00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#a0522d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="38.5" y="310" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-70" value="Iván se comporta bien&lt;div&gt;en clase&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#2D7600;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="91.5" y="967.34" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-72" value="Se muere" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#6F0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="745.31" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-75" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136.5" y="892.65" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-83" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136" y="1057.34" width="41" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-84" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="146" y="1067.34" width="21" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-70" target="2x8ingkKnPHR1Re_QFZv-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-94" target="2x8ingkKnPHR1Re_QFZv-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-94" value="La profesora decidirá que Iván" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="603" y="890" width="114" height="45.31" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-99" target="2x8ingkKnPHR1Re_QFZv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-106" value="&lt;span&gt;entre&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;a clase&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-102">
+          <mxGeometry x="0.0471" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-99" target="2x8ingkKnPHR1Re_QFZv-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-107" value="&lt;span&gt;no entre&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;a clase&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=2" vertex="1" connectable="0" parent="2x8ingkKnPHR1Re_QFZv-104">
+          <mxGeometry x="-0.4784" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-99" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="892.65" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-103" target="2x8ingkKnPHR1Re_QFZv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-103" value="Hasta que la profesora perdone las acciones de Iván" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="321" y="997.34" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-109" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389.5" y="819.9999999999999" width="41" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-110" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="399.5" y="829.9999999999999" width="21" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2x8ingkKnPHR1Re_QFZv-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2x8ingkKnPHR1Re_QFZv-72" target="2x8ingkKnPHR1Re_QFZv-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+    vertical-align: center;
+    
+}
+.ctacontainer {
+    background-image: url("./../fotoacaruela.jpg");
+    padding: 5%;
+}
+.ctatext {
+    size: 28px;
+    font-style: bold;
+}
+
+.ctabutton {
+    background-color: #626bb2;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,144 @@
+@font-face {
+  font-family: myFont;
+  src: url(../fuentes/Bellota-LightItalic.otf);
+}
+body{
+  background-image: url(../imagenes/grupos/atardecer.jpg);
+  letter-spacing: 2px;
+  font-family: myFont;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+.header{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.nav{
+  border: 1px solid black;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+}
+.logo{
+  float: none;
+  line-height: 80px;
+  font-size: 50px;
+  text-align: center;
+  padding: 0 5px;
+  text-shadow: darkviolet 0 10px;
+}
+.buttons{
+  float: right;
+  line-height: 50px;
+  margin: 0 1px;
+}
+.buttons ul{
+  list-style-type: none;
+}
+.buttons ul li{
+  display: inline-block;
+}
+.buttons ul li a{
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 25px;
+  padding:0 5px;
+}
+.body{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.main_body{
+  padding: 2px;
+  margin-left: 20px;
+  margin-top:15px;
+  float: left;
+  height: 300px;
+  width: 80%;
+}
+.main_body2 h1{
+  text-align: center;
+}
+.main_body2 img{
+  border: 2px black solid;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+footer{
+  margin-bottom: 0px;
+  clear: both;
+  padding: 5px;
+  height: 100px;
+}
+.redes{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.redes ul{
+  list-style-type: none;
+}
+.redes ul li{
+  display: inline-block;
+}
+.redes ul li a{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 25px;
+  padding:0 5px;
+}
+img.redeslogos{
+  border: 2px solid black;
+  display: inline-block;
+  float: none;
+  height: 30px;
+  width: 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  border-width: thick;
+  background-color:#8FB9A8;
+  transition:0.5s;
+}
+a:link{
+  text-decoration: none;
+  color:black;
+}
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+p{
+  text-align: justify;
+  font-family: myFont;
+  font-size: 13px;
+  color: deeppink;
+}
+h1{
+  background-color:grey;
+  padding-left: 5px;
+  border-radius: 10px;
+  opacity: 0.25;
+}
+img.ofertagrupos{
+  margin-right: 45%;
+  margin-left: 55%;
+  height: 200px;
+  width: 200px;
+}

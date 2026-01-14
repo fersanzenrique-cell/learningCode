@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>Ejercicio 3</title>
+        <script type="text/javascript">
+
+            function setNombreApellidos() {
+                var texto = document.getElementById("nombreApellidos").value;
+                console.log(texto);
+            }
+            function setNick() {
+                var texto = document.getElementById("nick").value;
+                console.log(texto);
+            }
+            function setPassword() {
+                var contraseña = document.getElementById("password").value;
+                console.log(contraseña);
+            }
+            function crearUsuario() {
+                if (document.getElementById("nombreApellidos").value === "" ||
+                    document.getElementById("nick").value === "" ||
+                    document.getElementById("password").value === "") {
+                    alert("Por favor, rellene todos los campos.");
+                    return;
+                } else if (document.getElementById("password").value.length < 8) {
+                    alert("La contraseña debe tener al menos 8 caracteres.");
+                    return;
+                } else {
+                    setNombreApellidos();
+                    setNick();
+                    setPassword();
+                    alert("Su nombre de usuario es: " + document.getElementById("nick").value + "\n" + "Su nick es: " + document.getElementById("nombreApellidos").value + "\n" +
+                        "Su contraseña es: " + document.getElementById("password").value);
+                }
+                
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 3</h1>
+        <label for="nombreApellidos">Nombre y Apellidos:</label>
+        <input type="text" id="nombreApellidos">
+        <br/>
+        <label for="nick">Nick:</label>
+        <input type="text" id="nick">
+        <br/>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password">
+        <br/>
+        <button id="boton" onclick="crearUsuario()">Crear usuario</button>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM 3</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://youtube.com">YouTube</a></li>
+        <li><a href="https://github.com">GitHub</a></li>
+    </ul>
+
+    <input type="text" id="texto">
+
+    <script>
+        document.querySelectorAll("a").forEach(enlace => {
+            enlace.addEventListener("mouseover", () => {
+                document.getElementById("texto").value = enlace.href;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
