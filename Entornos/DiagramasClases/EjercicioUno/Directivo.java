@@ -13,7 +13,24 @@ public class Directivo {
         this.listaSubordinados = listaSubordinados;
     }
     //seters y getters de los otros
-
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    public float getSueldo() {
+        return sueldo;
+    }
+    public void setSueldo(float sueldo) {
+        this.sueldo = sueldo;
+    }
     public char getCategoria() {
         return categoria;
     }
