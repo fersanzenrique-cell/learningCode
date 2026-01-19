@@ -29,6 +29,7 @@ public class ArrayDosD {
         m [0][1] = 3;
         m [0][2] = 5;
         m [1][0] = 5;
+        m [1][2] = 5;
         //asi sucesivamente, array 0 , posicion 0
     }
     
