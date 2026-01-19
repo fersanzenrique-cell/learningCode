@@ -40,7 +40,7 @@ BEGIN
     LOOP
         FETCH mostrarDatos INTO v_reg;
         EXIT WHEN mostrarDatos%NOTFOUND;
-        DBMS_OUTPUT.put_line('El salario del empleado' ||v_reg.empno||' ES '|| v_salario;
+        DBMS_OUTPUT.put_line('El salario del empleado' ||v_reg.empno||' ES '|| v_salario);
     END LOOP;
     CLOSE mostrarDatos;
     DBMS_OUTPUT.put_line('SE HAN ACABADO LOS DATOS DEL PRIMER CURSOR.');
@@ -55,3 +55,4 @@ BEGIN
 
 END;
 /
+
