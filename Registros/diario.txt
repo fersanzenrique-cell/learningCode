@@ -1,5 +1,6 @@
-1/19/2025
-1/20/2025
+MM/DD/YYYY
+01/19/2025
+01/20/2025
     Maven for java
     Gradle for java
     Extension pack for java
@@ -63,3 +64,5 @@
         code --install-extension vscjava.vscode-maven
         code --install-extension vscodevim.vim
         code --install-extension xabikos.javascriptsnippets
+01/20/2025
+    Deja tiktok

@@ -40,7 +40,7 @@ class HistoriaArrayEnteros {
                     case 5 -> {
                         System.out.println("Inserte el numero a encontrar.");
                         int numEncontrar = sc.nextInt();
-                        int[] arrayTemp = obj.encontrar(numEncontrar);
+                        int[] arrayTemp = obj.encontrar2(numEncontrar);
                         System.out.println(Arrays.toString(arrayTemp));
                         System.out.println("El numero se repite unas " + obj.cuentaVeces(numEncontrar) + " veces.");
                     }
@@ -57,7 +57,7 @@ class HistoriaArrayEnteros {
     public static void main(String[] args) {
         System.out.println("Escriba el tamaño del array:");
         int tam = sc.nextInt(); // el Scanner es estático y disponible para todos los métodos
-        if (tam>0){
+        if (tam > 0){
            ArrayEnteros nums = new ArrayEnteros(tam);
            rellenar(nums);
            menu(nums);

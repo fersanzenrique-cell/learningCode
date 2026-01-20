@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayDosD {
     public static void main(String[] args) {
         int [][] ArrayDosD = {
@@ -31,6 +33,24 @@ public class ArrayDosD {
         m [1][0] = 5;
         m [1][2] = 5;
         //asi sucesivamente, array 0 , posicion 0
+
+        int[][] m2 = {{0,1,2,3,4},{4,5,6,7,8},{9,10,11,12,13}};
+        System.out.println(m2.length);
+        System.out.println(m2[0].length);
+        System.out.println(m2[1].length);
+        System.out.println(m2[2].length);
+
+        System.out.println(Arrays.toString(m2));
+        System.out.println(Arrays.toString(m2[0]));
+
+        for (int[] m1 : m2) {
+            System.out.println(m1.length);
+            System.out.println(Arrays.toString(m1));
+        }
+
+        System.out.println(Arrays.deepToString(m2));
+                                /*---------------*/
+        
     }
     
 }
