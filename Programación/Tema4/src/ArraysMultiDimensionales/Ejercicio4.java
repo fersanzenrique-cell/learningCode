@@ -62,6 +62,7 @@ public class Ejercicio4 {
         int[][] suma = sumaMatriz(array1, array2);
 
         System.out.println(Arrays.deepToString(suma));
+        ArraysMultiDimensionales.Arrays2D.DisplayMatriz(array2);
     }
 
 }
