@@ -26,21 +26,25 @@ public class Ejercicio4 {
             }
         }
     }
-    /* 
-    static boolean isSumaValida(int[][] array1, int[][] array2) {
-
-    }
-    */
-    static int[][] sumaMatriz (int[][] array1, int[][] array2) {
-        if (array1.length != array2.length) {
-            System.out.println("Suma no válida");
-        }
-        int[][] arrayResultado = new int[array1.length][array1.length]; //Asumiendo que son de igual tamaño
+    
+    static boolean isSumaValida(int[][] a, int[][] b) {
         
-        for (int i = 0; i < arrayResultado.length; i++) { // i < arrayResultado.length && isSumaValida
+        if (a.length != b.length) {
+            System.out.println("Suma no válida");
+            return false;
+        } else {
+            return true;
+        }
+    }
+    
+    static int[][] sumaMatriz (int[][] a, int[][] b) {
+        
+        int[][] arrayResultado = new int[a.length][b.length];
+        
+        for (int i = 0; i < arrayResultado.length && isSumaValida(a,b); i++) {
             
             for (int j = 0; j < arrayResultado[i].length; j++) {
-                arrayResultado[i][j] = array1[i][j] + array2[i][j];
+                arrayResultado[i][j] = a[i][j] + b[i][j];
             }
         }
         
