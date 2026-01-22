@@ -1,0 +1,14 @@
+/* 2. Representa en formato JSON la asignatura Lenguaje de Marcas. Teniendo que mostrar la
+siguiente información: 
+    ● Nombre de la asignatura
+    ● Curso
+    ● Horas
+    ● Profesor 
+*/
+
+{
+    "asignatura" : "Lenguaje de Marcas",
+    "curso" : "1ºDAM",
+    "horas" : "3",
+    "profesor" : "Cristina Rebollo Delgado"
+}
