@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejercicio>
+
+<!--2. Crea una estructura jerárquica para recoger la descripción de un CD en un documento
+XML.-->
+<!--Nombre del artista, título del CD, fecha de creación, género musical, así como la
+información de cada canción: su título y su duración.
+Del artista también queremos recoger su fecha y lugar de nacimiento.-->
+
+
+
+
+<!--b) Crear el documento XML correspondiente con datos de un CD cualquiera (con dos
+canciones es suficiente), guardarlo con el nombre cd.xml. y visualizalo en el navegador. Como
+elemento raíz poner <CD>-->
+
+</ejercicio>

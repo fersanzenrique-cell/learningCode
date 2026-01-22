@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apartados>
+<!--1. Los siguientes documentos XML están mal formados. ¿Sabrías decir por qué?-->
+
+<!--He puesto los ejercicios con anotaciones sin corregir, y después la tanda de los ejercicios corregidos-->
+
+<!--A-->
+
+<agenda>
+    <entrada>
+        <nombre-completo>Marta Elena Zorrilla <!--Esta etiqueta no se cerró, tiene que escribirse "</nombre-completo>"-->
+    </entrada>
+</agenda>
+
+<!--B-->
+
+<nombre-completo>Marta Elena Zorrilla</nombre-completo>
+<direccion>
+    <calle> Avda Los Castros</calle>
+    <ciudad>Santander</ciudad>
+    <codigo-postal>39005</codigo-postal>
+    <region>Cantabria</region>
+    <pais>España</pais>
+</direccion>
+<tel preferente="true"> 942201363</tel>
+<correo-e href="zorrillm@unican.es"></correo-e> <!--Falta etiqueta principal, o que todos los tags estén dentro de dirección-->
+
+<!--C-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte Atletismo /> <!--Falta la asignación del atributo, y ponerlo en comillas-->
+        <nombre>Jesse Owens</nombre>
+    <!--El tag deportista tiene que cerrar-->
+    <deportista> 
+        <deporte Natación /> <!--Falta la asignación del atributo, y ponerlo en comillas-->
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+<!--D-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia mundial>  <!--La etiqueta así <geografia mundial>, no se puede escribir tendria que ser, geografia-mundial o geografiamundial-->
+    <pais>  <!--Es paises, no pais-->
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <capital></capital nombre="Madrid">
+        <!-- Madrid tendria que ser el contenido de la etiqueta y no el atributo,
+        no tiene sentido poner un atributo a una etiqueta que esta vacía y qué sea lo que específicamente,
+        encaje en dentro de la etiqueta, además esta en la etiqueta de cierre.-->
+    </paises>
+</geografia mundial>
+
+<!--C (o E)-->
+
+<texto>
+    <Titulo>XML explicado a los niños</titulo> <!--Titulo no está bien escrito, tiene que ser titulo-->
+    <párrafo>El <abreviatura>XML</abreviatura>define cómo crear
+    lenguajes de marcas.</párrafo>
+    <párrafo>Las marcas se añaden a un documento de texto
+    para añadir información.</párrafo>
+    <http://>www.example.org</http://>  
+<!-- http:// no es un nombre valido para la etiqueta,
+http si, se puede llamar enlace o asignarlo atributo al texto o aun parrafo-->
+</texto>
+
+<!--Ejercicios Corregidos-->
+
+<!--A-->
+<agenda>
+    <entrada>
+        <nombre-completo>Marta Elena Zorrilla</nombre-completo>
+    </entrada>
+</agenda>
+
+<!--B-->
+<libreta>
+    <nombre-completo>Marta Elena Zorrilla</nombre-completo>
+    <direccion>
+        <calle> Avda Los Castros</calle>
+        <ciudad>Santander</ciudad>
+        <codigo-postal>39005</codigo-postal>
+        <region>Cantabria</region>
+        <pais>España</pais>
+    </direccion>
+    <tel preferente="true"> 942201363</tel>
+    <correo-e href="zorrillm@unican.es"></correo-e>
+</libreta> 
+
+<!--C-->
+<deportistas>
+    <deportista>
+        <deporte id="Atletismo"/> 
+        <nombre>Jesse Owens</nombre>
+    </deportista> 
+    <deportista>
+        <deporte id="Natación"/> 
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+<!--D-->
+<geografia-mundial>
+    <paises>
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <capital>Madrid</capital>
+    </paises>
+</geografia-mundial>
+
+<!--c (que tendría que ser e)-->
+<texto>
+    <titulo>XML explicado a los niños</titulo>
+    <párrafo>El <abreviatura>XML</abreviatura>define cómo crear
+    lenguajes de marcas.</párrafo>
+    <párrafo>Las marcas se añaden a un documento de texto
+    para añadir información.</párrafo>
+    <http>www.example.org</http>
+</texto>
+
+</apartados>
