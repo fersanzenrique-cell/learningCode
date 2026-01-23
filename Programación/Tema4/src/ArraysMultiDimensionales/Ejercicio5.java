@@ -12,6 +12,7 @@ public class Ejercicio5 {
                 t[i][j] = m[j][i];
             }
         }
+        
         System.out.println(Arrays.deepToString(m));
         System.out.println(Arrays.deepToString(t));
 
