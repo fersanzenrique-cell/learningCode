@@ -1,0 +1,26 @@
+/*Representa en formato JSON la obra de un pintor.
+○ Nombre del pintor
+○ Fecha de nacimiento
+○ Lugar de nacimiento
+○ Fecha de defunción. Puede ser nula.
+○ Lugar de defunción. Puede ser nula.
+○ Listado de obras:
+■ Título del cuadro
+*/
+
+{
+    "pintor" : "José Miguel Palacio",
+    "fechaNacimiento": "14091950",
+    "lugarNacimiento": "Zaragoza",
+    "fechaMuerte": null,
+    "lugarMuerte": null,
+    "listadoObras": [{
+        "tituloObra" : "Puesto de Especias del Mercado"
+    },
+    {
+        "tituloObra" : "Gran Vía desde plaza de Callao a edificio Telefónica"
+    },
+    {
+        "tituloObra" : "La Esquina del Bernabéu"
+    }]
+}

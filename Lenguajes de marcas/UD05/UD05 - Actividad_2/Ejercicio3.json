@@ -1,0 +1,23 @@
+
+{
+    "nombreCentro" : "IES Cañaveral",
+    "codigoCentro" : "28074852",
+    "ciclos" : [{
+        "nombreCiclo" : "Desarrollo de aplicaciones web",
+        "abrCiclo" : "DAW",
+        "horasCiclo" : "500h",
+        "asignaturas" : [{
+                "nombreAsignatura" : "Lenguaje de marcas",
+                "curso" : "1",
+                "horas" : "6",
+                "profesor" : "Cristina Rebollo Delgado"
+            },
+            {
+                "nombreAsignatura" : "Programación",
+                "curso" : "1",
+                "horas" : "3",
+                "profesor" : "Rosa"
+            }] 
+    }]
+    
+}
