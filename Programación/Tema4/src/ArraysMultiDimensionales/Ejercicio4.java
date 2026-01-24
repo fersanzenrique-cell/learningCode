@@ -51,7 +51,6 @@ public class Ejercicio4 {
         return arrayResultado;
     }
 
-
     public static void main(String[] args) {
 
         int[][] array1 = generadorMatrices();

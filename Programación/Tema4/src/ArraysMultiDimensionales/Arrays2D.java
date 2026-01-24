@@ -31,7 +31,6 @@ public class Arrays2D {
                 // Espantoso, fijo que hay otra manera.
                 System.out.print(" " + matriz [i][j] + " ");
                 System.out.println();
-
             }
         }
     }
