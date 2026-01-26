@@ -86,6 +86,15 @@ begin
     v_reg.salario := v_reg.salario + 10000;
     select max(comision) + 5000 into v_reg.comision from emple;
     insert into emple values(v_reg.empno, 'Apelllido1', 'oficio1', 7839,v_reg.fechaalt,v_reg.salario, v_reg.comision,20);
+end;
+/
 
+/* Ejercicio 4 */
+
+declare
+    precio productos.precio%rowtype;
+begin
+    select precio_uni into precio from productos where cod_producto = 7;
+    dbms_output.put_line('El producto 7 vale' || precio);
 end;
 /
