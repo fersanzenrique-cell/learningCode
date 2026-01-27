@@ -1,0 +1,11 @@
+<!ELEMENT libro (titulo,autor,ano-publicacion,resumen?,capitulos)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre,apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT ano-publicacion (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT capitulos (capitulo+)>
+<!ELEMENT capitulo (numero,titulo-cap)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT titulo-cap (#PCDATA)>
