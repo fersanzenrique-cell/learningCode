@@ -35,7 +35,7 @@ public class Matriz {
     void inicializarMatriz() {
         Random Random = new Random();
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[j].length; j++) {
+            for (int j = 0; j < matriz[i].length; j++) {
                 matriz[i][j] = Random.nextInt(0,101);
             }
         }
