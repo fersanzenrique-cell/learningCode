@@ -99,6 +99,23 @@ public class Matriz {
 
     void sumaDiagonal () {
 
+        int suma = 0;
+
+        if (m == n) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
+                    if (i == j) {
+                        System.out.print(
+                        " " + matriz[i][j] + (matriz[i][j] == matriz[i].length? " = ":" + ")
+                        );
+                        suma += i;
+                    }
+                }
+            }
+        }
+        
+        System.out.println(suma);
+
     }
 
     void visualizar() {
