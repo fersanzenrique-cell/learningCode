@@ -98,3 +98,105 @@ begin
     dbms_output.put_line('El producto 7 vale' || precio);
 end;
 /
+
+declare
+    precio productos.precio%rowtype;
+begin
+    select precio_uni into precio from productos where cod_producto = 7;
+    dbms_output.put_line('El producto 7 vale' || precio);
+    exception
+      when %no_data_found then
+        bsms_output.put_line('El producto no existe');
+end;
+/
+
+
+
+
+/* Ejercicio 5 */
+
+declare
+    v_cant Number(3);
+begin
+    select count(*) into v_cant from ventascp where fecha='22/09/1997';
+    dbms_output.put_line(v_cant || ' clientes compraron el dia 22/09/1997.');
+    exception
+      when %no_data_found then
+        dbms_output.put_line('No se compraron productos en esa fecha.');
+end;
+/
+
+/* Y si pidiera los nombres?*/
+
+declare
+    v_nif Ventascp.nif%type;
+begin
+    select nif into v_nif from Ventascp where fecha='22/09/1997';
+    dbms_output.put_line('El nif ' || v_nif || ' compro el dia 22/09/1997.');
+    exception
+      when %no_data_found then
+        dbms_output.put_line('No se compraron productos en esa fecha.');
+      when too_many_rows then
+        dbms_output.put_line('Hay mas de un cliente que ha comprado en esta fecha.')
+end;
+/
+
+/* Ejercicio 6*/
+/*Un cursor implicito devuelve una fila, uno explicito devuelve varias*/
+
+declare
+    v_cant Number(3);
+    v_sum Number(9);
+begin
+    select count(*), sum(precio_uni) into v_cant,v_sum from productos;
+    dbms_output.put_line('Hay ' || v_cant || ' produtos de la linea pb');
+    dbms_output.put_line('El precio total es de ' || v_sum || '€');
+    exception
+      when %no_data_found then
+        dbms_output.put_line('No hay productos en esa linea.');
+      when too_many_rows then
+        dbms_output.put_line('Hay mas de un cliente que ha comprado en esta fecha.');
+end;
+
+/* Ejercicio 7*/
+
+alter table clientes add zona varchar2(10);
+
+declare
+    cursor c_clientes is
+        select nif from clientes where zona='Centro';
+    v_nif Clientes.nif%type;
+    cursor c_ventas is
+        select * from ventascp where nif=v_nif;
+    v_codigo ventascp.cod_producto%type;
+    v_unidades ventascp.unidades%type;
+begin
+    update clientes set zona='Centro' where domicilio='Madrid';
+    update clientes set zona='Norte' where domicilio!='Madrid';
+    open c_clientes;
+    loop
+        fetch c_clientes into v_nif;
+        exit when c_clientes%notfound;
+        open c_ventas;
+        loop
+          fetch c_ventas into v_codigo, v_unidades;
+          exit when c_ventas%notfound;
+          select precio_uni into v_precio from productos where cod_producto=v_codigo;
+          total := v_precio*v_unidades;
+          dbms_output.put_line('El cliente ' || v_nif || ' se ha gastado.');
+        end loop
+        close c_ventas;
+    end loop
+    close c_clientes;
+    dbms_output.put_line('Se ha facturado un total de ' || totalF || '€');
+end;
+/
+
+/*Ejercicio 8*/
+
+declare
+    cod_max Productos.cod_producto%type;
+begin
+    select max (cod_producto)+1 into cod_max from productos
+        insert into productos values (cod_max,)
+end;
