@@ -1,0 +1,10 @@
+<!-- UD06. DTD Ejercicios
+1. Escribe un DTD para describir la estructura de un archivo XML que represente un libro con las
+siguientes características:
+• Un libro tiene un título, un autor (nombre y apellido) y un año de publicación.
+• Opcionalmente, puede incluir un resumen.
+• Puede tener uno o varios capítulos. Cada capítulo tiene un número y un título.
+-->
+<!ELEMENT libro (titulo,autor,ano-publicacion,resumen?,capitulo*)>
+<!ELEMENT titulo (#PCDATA)>
+<!Ele
