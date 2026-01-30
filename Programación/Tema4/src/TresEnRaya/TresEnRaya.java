@@ -91,7 +91,6 @@ public class TresEnRaya {
         // Seria mas limpio dividirlo en varias funciones
 
         int resultado = -1;
-        int contadorGanador = 0;
 
         boolean stop = false;
         boolean tokenOne;
@@ -99,7 +98,6 @@ public class TresEnRaya {
 
         int contadorVertiOne = 0;
         int contadorVertiTwo = 0;
-
 
         
         for (int i = 0; i < matriz.length || stop; i++) {
@@ -140,7 +138,7 @@ public class TresEnRaya {
                         }   
                     }
                 }
-
+                /* Y las diagonales? */
                 if (stop) {
                     resultado = 0;
                 }
