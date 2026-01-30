@@ -37,6 +37,7 @@ public class TresEnRaya {
             System.out.println("|   " + matriz[i][0] +  "   |   " +matriz[i][1] +  "  |   " + matriz[i][3] + "   |");
             System.out.println("|       |       |       |");
         }
+        System.out.println("+-------+-------+-------+");
     }
 
     char get(int n) {
