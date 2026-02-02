@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" modified="2026-02-02T11:28:39.255Z" version="21.5.1" etag="jWDSj0ZCJgP60rrhBC8v" type="device" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" modified="2026-02-02T11:28:48.308Z" version="21.5.1" etag="Z682H0epOnmikxIubfqS" type="device" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1402" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -126,7 +126,7 @@
           <mxGeometry y="140" width="260" height="370" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-1" value="Vuelo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="640" width="250" height="720" as="geometry" />
+          <mxGeometry x="1190" y="640" width="250" height="670" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-2" value="- numero : int&lt;br&gt;- fecha : String&lt;br&gt;- hora : String&lt;br&gt;- origen : String&lt;br&gt;- destino : String&lt;br&gt;- plazaTotales : int&lt;br&gt;- plazaTurista : int&lt;br&gt;- precioPlazaTurista : double&lt;br&gt;- precioPlazaPrimera : double&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0OWNi-XXaSICMWwKdLUP-1" vertex="1">
           <mxGeometry y="26" width="250" height="144" as="geometry" />
@@ -135,7 +135,7 @@
           <mxGeometry y="170" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-4" value="+ Vuelo (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;numero : int,&lt;br&gt;fecha : String,&lt;br&gt;hora : String,&lt;br&gt;origen : String,&lt;br&gt;destino : String,&lt;br&gt;plazaTotales : int,&lt;br&gt;plazaTurista : int,&lt;br&gt;precioPlazaTurista : double,&lt;br&gt;precioPlazaPrimera : double&lt;/blockquote&gt;)&lt;br&gt;+ getNumero () : int&lt;br&gt;+ setNumero (numero : int) : void&lt;br&gt;+ getFecha () : String&lt;br&gt;+ setFecha (fecha : String) : void&lt;br&gt;+ getHora () : String&lt;br&gt;+ setHora (hora : String) : void&lt;br&gt;+ getOrigen () : String&lt;br&gt;+ setOrigen (origen : String) : void&lt;br&gt;+ getDestino () : String&lt;br&gt;+ setDestino (destino : String) : void&lt;br&gt;+ getPlazaTotales () : int&lt;br&gt;+ setPlazaTotales (plazaTotales : int) : void&lt;br&gt;+ getPlazaTurista () : int&lt;br&gt;+ setPlazaTurista (plazaTurista : int) : void&lt;br&gt;+ getPrecioPlazaTurista () : double&lt;br&gt;+ setPrecioPlazaTurista (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;precioPlazaTurista : double&lt;/blockquote&gt;) : void&lt;br&gt;+ getPrecioPlazaPrimera () : double&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setPrecioPlazaPrimera (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;precioPlazaPrimera : double&lt;/blockquote&gt;) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0OWNi-XXaSICMWwKdLUP-1" vertex="1">
-          <mxGeometry y="180" width="250" height="540" as="geometry" />
+          <mxGeometry y="180" width="250" height="490" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-5" value="Reserva" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="610" width="210" height="510" as="geometry" />
