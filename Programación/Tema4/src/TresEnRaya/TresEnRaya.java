@@ -53,7 +53,9 @@ public class TresEnRaya {
                 }
             }
         }
-        return charDevolver;
+        return charDevolver; 
+        // se puede averiguar una posicion restando -1 diviendiendo/3 y el modulo%3
+        // ej : int n = 9, 9 - 1 = 8, 8 / 3 = 2, 8 % 3 = 2, [2],[2] tener en cuenta para esto
     }
 
     boolean validarMovimiento(int m) {
@@ -100,7 +102,7 @@ public class TresEnRaya {
         int contadorVertiTwo = 0;
 
         
-        for (int i = 0; i < matriz.length || stop; i++) {
+        for (int i = 0; i < matriz.length || stop; i++) { //Check horizontal, no usar binarySearch, se tiene que ordenar antes
 
             if (Arrays.binarySearch(matriz[i], TOKEN1) == 3) {
                 resultado = 1;
@@ -110,7 +112,7 @@ public class TresEnRaya {
                 stop = true;
             }
 
-            for (int j = 0; j < matriz.length || stop; j++) {
+            for (int j = 0; j < matriz.length || stop; j++) { // Check vertical
 
                 stop = !(matriz[i][j] == TOKEN1 && matriz[i][j] == TOKEN2);
 
@@ -118,7 +120,7 @@ public class TresEnRaya {
                 tokenTwo = (matriz[i][j] == TOKEN2);
 
                 if (tokenOne) {
-                    for (int k = 0; k < matriz.length; k++) {
+                    for (int k = 0; k < matriz.length || stop; k++) {
                         if (matriz[k][j] == TOKEN1) {
                             contadorVertiOne++;
                             if (contadorVertiOne == 3) {
@@ -128,7 +130,7 @@ public class TresEnRaya {
                         }
                     }
                 } else if (tokenTwo) {
-                    for (int k = 0; k < matriz.length; k++) {
+                    for (int k = 0; k < matriz.length || stop; k++) {
                         if (matriz[k][j] == TOKEN2) {
                             contadorVertiTwo++;
                             if (contadorVertiTwo == 3) {
@@ -139,7 +141,7 @@ public class TresEnRaya {
                     }
                 }
                 /* Y las diagonales? */
-                if (stop) {
+                if (!stop) {
                     resultado = 0;
                 }
             }
