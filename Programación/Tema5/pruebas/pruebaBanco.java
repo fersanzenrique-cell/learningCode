@@ -19,5 +19,7 @@ public class pruebaBanco {
             System.out.println(c.getSaldo());
             System.out.println(c1.getSaldo());
         }
+        /* No hace falta usar finally, detras se lee todo*/
+
     }
 }
