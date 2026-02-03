@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--3. Crea un documento XML para almacenar la información de un curriculum vitae.-->
 <curriculum>
-    <nombre></nombre>
-    <apellidos></apellidos> <!-- apellido1 apellido2-->
-    <residencia></residencia>
-    <ciudad></ciudad>
-    <pais></pais>
-    <datos-contacto></datos-contacto>
-    <telefono></telefono>
-    <correo></correo>
-    <linkedin></linkedin>
+    <persona>
+        <nombre></nombre>
+        <apellidos></apellidos> <!-- ..>apellido1 apellido2<..-->
+        <residencia></residencia>
+        <ciudad></ciudad>
+        <pais></pais>
+    </persona>
+    <contacto>
+        <telefono></telefono>
+        <correo></correo>
+        <linkedin></linkedin>
+    </contacto>
     <desc></desc>
     <lista-competencia>
         <nombre></nombre>
         <nivel></nivel>
     </lista-competencia>
-    <formacion>
-        <titulacion year=""></titulacion>
-        <centro></centro>
-    </formacion>
-    <experiencia year-inicio="" year-fin="">
-        <empresa puesto=""></empresa>
-    </experiencia>
+    <lista-formacion>
+        <formacion>
+            <titulacion year=""></titulacion>
+            <centro></centro>
+        </formacion>
+    </lista-formacion>
+    <experiencias>
+        <experiencia year-inicio="" year-fin="">
+            <empresa puesto=""></empresa>
+        </experiencia>
+    </experiencias>
+    
 </curriculum>

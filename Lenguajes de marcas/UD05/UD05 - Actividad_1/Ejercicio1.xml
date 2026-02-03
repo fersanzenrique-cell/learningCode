@@ -6,7 +6,7 @@
 
 <!--A-->
 
-<agenda>
+<agenda>    <!--La etiqueta de xml de inicio falta-->
     <entrada>
         <nombre-completo>Marta Elena Zorrilla <!--Esta etiqueta no se cerró, tiene que escribirse "</nombre-completo>"-->
     </entrada>
@@ -14,7 +14,7 @@
 
 <!--B-->
 
-<nombre-completo>Marta Elena Zorrilla</nombre-completo>
+<nombre-completo>Marta Elena Zorrilla</nombre-completo> <!--La etiqueta de xml de inicio falta-->
 <direccion>
     <calle> Avda Los Castros</calle>
     <ciudad>Santander</ciudad>

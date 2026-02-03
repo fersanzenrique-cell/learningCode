@@ -5,7 +5,7 @@
     "ciclos" : [{
         "nombreCiclo" : "Desarrollo de aplicaciones web",
         "abrCiclo" : "DAW",
-        "horasCiclo" : "500h",
+        "horasCiclo" : "500",
         "asignaturas" : [{
                 "nombreAsignatura" : "Lenguaje de marcas",
                 "curso" : "1",
