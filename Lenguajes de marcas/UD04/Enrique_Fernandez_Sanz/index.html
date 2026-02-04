@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Examen Enrique</title>
+        
+    </head>
+    <body>
+        <h1>Mi lista de la compra</h1>
+        <p>Añade tus artículos a la lista de la compra</p>
+        <h2 id="mensajeDinamico">¡Buenos días!</h2>
+        <form>
+            <label for="articulo">
+                Articulo: <input type="text" id="articulo">
+            </label>
+            <br/>
+            <label for="cantidad">
+                Cantidad: <input type="text" id="cantidad">
+            </label>
+            <br/>
+            <label for="categoria">
+                Categoría: <input type="text" id="categoria">
+            </label>
+            <br/>
+            <label for="btnAgregar">
+                <button type="button" id="btnAgregar">Añadir a la lista</button>
+            </label>
+            <label for="btnReset">
+                <button type="reset" id="btnReset">Limpiar</button>
+            </label>
+        </form>
+        <table id="tabla">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Articulo</th>
+            <th>Cantidad</th>
+            <th>Categoría</th>
+            <th>Borrar</th>
+        </tr>
+    </thead>
+    <tbody id="tablaBody">
+    </tbody>
+</table>
+
+    </body>
+    <script src="./script/script.js"></script>
+    <style>
+        h1, p, h2, div, table {
+           text-align: center;
+        }
+
+        table {
+            display: flex;
+            align-content: center;
+            align-self: center;
+            align-items: center;
+        }
+        
+    </style>
+</html>

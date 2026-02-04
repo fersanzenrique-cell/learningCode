@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Examen Enrique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Mi lista de la compra</h1>
+    <p>Añade tus artículos a la lista de la compra</p>
+
+    <h2 id="mensaje">¡Buenos días!</h2>
+
+    <form>
+        <label>
+            Artículo:
+            <input type="text" id="articulo">
+        </label>
+        <br><br>
+
+        <label>
+            Cantidad:
+            <input type="text" id="cantidad">
+        </label>
+        <br><br>
+
+        <label>
+            Categoría:
+            <input type="text" id="categoria">
+        </label>
+        <br><br>
+
+        <button type="button" id="btnAgregar">Añadir a la lista</button>
+        <button type="reset" id="btnReset">Limpiar</button>
+    </form>
+
+    <br><br>
+
+    <table id="tabla">
+        <thead> <!-- table head, thead-->
+            <tr>
+                <th>#</th>
+                <th>Artículo</th>
+                <th>Cantidad</th>
+                <th>Categoría</th>
+                <th>Borrar</th>
+            </tr>
+        </thead>
+        <tbody id="tablaBody">
+        </tbody>
+    </table>
+
+    <script src="plantilla.js"></script>
+
+</body>
+</html>
