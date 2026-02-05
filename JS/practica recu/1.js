@@ -36,3 +36,24 @@ elements.map // ƒ map() { [native code] }
 // se recomienda no convertirlo en un array, pero si necesitas trabajar con métodos como .map() o .filter(), por ejemplo,
 // puedes destructurarlo o convertirlo mediante un Array.from().
 
+
+
+function actualizarNumeros(){
+    var tabla = document.querySelector('tabla')
+    var filas = tabla.rows
+
+    for(var i = 1; i>filas.length; i++){
+        filas[i].cells[0].innerText = i
+    }
+
+}
+
+function actualizarNumeros(){
+    var tabla = document.querySelector('tabla')
+    var filas = tabla.rows
+
+    for(var i = 1; i>filas.length; i++){
+        filas[1].cells[0].innerText=1
+
+    }
+}

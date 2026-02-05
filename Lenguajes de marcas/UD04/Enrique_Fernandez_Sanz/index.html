@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen de Enrique</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Lista de tareas</h1>
+        <p id="mensaje">Buenos dias!</p>
+        <form>
+            <label for="tarea"> Tarea: 
+                <input type="text" id="tarea">
+            </label>
+            <br/>
+            <label for="prioridad"> Prioridad: 
+                <input type="text" id="prioridad">
+            </label>
+            <br/>
+            <button id="btnAgregar">Añadir tarea</button>
+            <button type="reset" id="btnReset">Limpiar formulario</button>
+            <br/>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nº</th>
+                    <th>Tarea</th>
+                    <th>Prioridad</th>
+                    <th>Borrar</th>
+                </tr>
+            </thead>
+            <tbody id="tablaBody"></tbody>
+        </table>
+    </body>
+    <script src="script.js"></script>
+</html>
