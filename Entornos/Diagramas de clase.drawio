@@ -1,29 +1,29 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" modified="2026-02-02T11:28:46.750Z" version="21.5.1" etag="FFGDSs3mXm36homi3JGT" type="device" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" modified="2026-02-05T13:10:27.519Z" etag="XgY0qLIqHPZIZaRRYMNk" version="21.5.1" type="device" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1402" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="793" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6mftjsSIlMzkUtPLvO8B-1" value="&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;strong&gt;&lt;u&gt;&lt;span class=&quot;&quot;&gt;EJERCICIO 01&lt;/span&gt;&lt;/u&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&#xa;&lt;p&gt;Se desea diseñar una aplicación capaz de almacenar información sobre &#xa;empresas, sus empleados y sus clientes. Para ello, es necesario que el &#xa;software cumpla lo siguiente:&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&lt;strong&gt;Los empleados y clientes son personas&lt;/strong&gt; físicas y ambos se caracterizan por su &lt;strong&gt;nombre &lt;/strong&gt;(que es una cadena de caracteres) &lt;strong&gt;y edad &lt;/strong&gt;(que es un entero positivo mayor de 16).&lt;/li&gt;&#xa;&lt;li&gt;Los &lt;strong&gt;empleados &lt;/strong&gt;sólo &lt;strong&gt;pueden trabajar en una empresa&lt;/strong&gt;, aunque los &lt;strong&gt;clientes pueden pertenecer a varias. &lt;/strong&gt;&lt;/li&gt;&#xa;&lt;li&gt;Los &lt;strong&gt;empleados:&lt;/strong&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Deseamos almacenar su &lt;strong&gt;sueldo bruto&lt;/strong&gt; (que es un número decimal positivo).&lt;/li&gt;&#xa;&lt;li&gt;Para poder &lt;strong&gt;crear un empleado, &lt;/strong&gt;es necesario &lt;strong&gt;indicar su nombre, edad y su sueldo bruto.&amp;nbsp;&lt;/strong&gt;&lt;/li&gt;&#xa;&lt;li&gt;Como acciones, no realiza ninguna.&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;Los &lt;strong&gt;empleados &lt;/strong&gt;pueden ser &lt;strong&gt;directivos:&lt;/strong&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Cuando son directos, se les añade una&amp;nbsp;&lt;strong&gt;categoría &lt;/strong&gt;(que es un carácter elegido entre A, B, C), así como un &lt;strong&gt;conjunto de empleados subordinados&lt;/strong&gt;.&lt;/li&gt;&#xa;&lt;li&gt;&lt;strong&gt;Para crearlos&lt;/strong&gt;, además de indicar los datos necesarios para crear un empleado, también es necesario indicar su categoría y sus subordinados.&lt;/li&gt;&#xa;&lt;li&gt;Como acciones, no realiza ninguna.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;Los &lt;strong&gt;clientes&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;De ellos se necesita conocer su&amp;nbsp;&lt;strong&gt;teléfono de contacto&lt;/strong&gt; (9 números).&lt;/li&gt;&#xa;&lt;li&gt;Para &lt;strong&gt;crear un cliente, &lt;/strong&gt;basta con &lt;strong&gt;indicar su nombre.&amp;nbsp;&lt;/strong&gt;&lt;/li&gt;&#xa;&lt;li&gt;Como acciones, no realiza ninguna.&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;La &lt;strong&gt;empresa&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Necesitamos almacenar su &lt;strong&gt;nombre &lt;/strong&gt;(que es una cadena de caracteres) y una&lt;strong&gt; lista con los actuales empleados y clientes.&lt;/strong&gt;&lt;/li&gt;&#xa;&lt;li&gt;Para poder crear una empresa, es necesario indicar todas sus propiedades.&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;La &lt;strong&gt;aplicación &lt;/strong&gt;&lt;em&gt;(que será la clase que contiene el método main):&lt;/em&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;Necesita &lt;strong&gt;almacenar las empresas&lt;/strong&gt;.&lt;/li&gt;&#xa;&lt;li&gt;Como acciones debe poder&lt;strong&gt; devolver los empleados&lt;/strong&gt; de una determinada empresa, Para ello, recibirá la empresa y devolverá la lista de empleados.&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;También podrá &lt;strong&gt;devolver un cliente concreto&lt;/strong&gt; de una &#xa;empresa, por lo que será necesario indicar la empresa y el teléfono de &#xa;contacto del cliente. Devolverá el cliente del que se quieren conocer &#xa;sus datos.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;p&gt;&lt;strong&gt;Realiza un diagrama de clases y añade los métodos necesarios &#xa;(get y set incluidos) para el correcto funcionamiento de la aplicación. &#xa;Todos los atributos serán privados y los métodos serán públicos.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="560" height="1180" as="geometry" />
         </mxCell>
-        <mxCell id="ys2JQU7lap68QLCLPwII-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;endSize=17;" parent="1" source="6mftjsSIlMzkUtPLvO8B-10" target="6mftjsSIlMzkUtPLvO8B-15" edge="1">
+        <mxCell id="ys2JQU7lap68QLCLPwII-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=19;startArrow=block;startFill=0;targetPerimeterSpacing=0;startSize=19;" parent="1" source="6mftjsSIlMzkUtPLvO8B-10" target="6mftjsSIlMzkUtPLvO8B-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-10" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="220" width="220" height="260" as="geometry" />
+          <mxGeometry x="985" y="230" width="220" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="6mftjsSIlMzkUtPLvO8B-11" value="- nombre : String&lt;br&gt;- edad : int&lt;br&gt;- sueldo : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-10" vertex="1">
-          <mxGeometry y="26" width="220" height="54" as="geometry" />
+        <mxCell id="6mftjsSIlMzkUtPLvO8B-11" value="- sueldo : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-10" vertex="1">
+          <mxGeometry y="26" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6mftjsSIlMzkUtPLvO8B-10" vertex="1">
-          <mxGeometry y="80" width="220" height="10" as="geometry" />
+          <mxGeometry y="46" width="220" height="10" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-13" value="+ Empleado (&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nombre : String,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;edad : int,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sueldo : float&lt;br&gt;)&lt;br&gt;+ getNombre () : String&lt;br&gt;+ setNombre (nombre : String) : void&lt;br&gt;+ getEdad () : int&lt;br&gt;+ setEdad (edad : int) : void&lt;br&gt;+ getSueldo () : double&lt;br&gt;+ setSueldo (sueldo : double) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-10" vertex="1">
-          <mxGeometry y="90" width="220" height="170" as="geometry" />
+          <mxGeometry y="56" width="220" height="170" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-14" value="Directivo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="170" width="230" height="370" as="geometry" />
+          <mxGeometry x="1480" y="150" width="230" height="370" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-15" value="- nombre : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- edad : int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- sueldo : double&lt;br&gt;- categoria : char&lt;br&gt;- listaSubordinados : [ ] Empleado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-14" vertex="1">
           <mxGeometry y="26" width="230" height="86" as="geometry" />
@@ -35,9 +35,11 @@
           <mxGeometry y="122" width="230" height="248" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-18" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="560" width="210" height="210" as="geometry" />
+          <mxGeometry x="985" y="555" width="210" height="210" as="geometry">
+            <mxRectangle x="985" y="555" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="6mftjsSIlMzkUtPLvO8B-19" value="- nombre : String&lt;br&gt;- edad : int&lt;br&gt;- telefono : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-18" vertex="1">
+        <mxCell id="6mftjsSIlMzkUtPLvO8B-19" value="- telefono : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-18" vertex="1">
           <mxGeometry y="26" width="210" height="54" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6mftjsSIlMzkUtPLvO8B-18" vertex="1">
@@ -47,7 +49,7 @@
           <mxGeometry y="90" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-22" value="Empresa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="590" width="220" height="230" as="geometry" />
+          <mxGeometry x="1460" y="570" width="220" height="230" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-23" value="- nombre : String&lt;br&gt;- listaEmpleados : [ ] Empleado&lt;br&gt;- listaClientes : [ ] Cliente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-22" vertex="1">
           <mxGeometry y="26" width="220" height="54" as="geometry" />
@@ -58,7 +60,7 @@
         <mxCell id="6mftjsSIlMzkUtPLvO8B-25" value="+ Empresa (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;nombre : String,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;listaEmpleados : [ ] Empleado,&lt;br&gt;listaClientes : [ ] Cliente&lt;/blockquote&gt;)&lt;br&gt;+ getNombre () : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setNombre (nombre : String) : void&lt;br&gt;+ getListaEmpleados () : [ ] Empleado&lt;br&gt;+ getListaClientes () : [ ] Empleado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-22" vertex="1">
           <mxGeometry y="90" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6mftjsSIlMzkUtPLvO8B-26" value="main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6mftjsSIlMzkUtPLvO8B-26" value="Aplicación" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="850" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="6mftjsSIlMzkUtPLvO8B-27" value="- listaEmpresas : [ ] Empresa&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-26" vertex="1">
@@ -70,39 +72,87 @@
         <mxCell id="6mftjsSIlMzkUtPLvO8B-29" value="+ getListaEmpresas () : [ ] Empresa&lt;br&gt;+ getEmpleados (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;empresa Empresa&lt;br&gt;) : [ ] Empleado&lt;br&gt;+ devolverCliente (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;empresa Empresa,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;telefono : int&lt;br&gt;) : Cliente&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6mftjsSIlMzkUtPLvO8B-26" vertex="1">
           <mxGeometry y="60" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ys2JQU7lap68QLCLPwII-3" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="320" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ys2JQU7lap68QLCLPwII-4" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="210" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="oV1IMXi-cYHrtPCeL69B-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;endArrow=none;endFill=0;" parent="1" source="6mftjsSIlMzkUtPLvO8B-21" target="6mftjsSIlMzkUtPLvO8B-25" edge="1">
+        <mxCell id="oV1IMXi-cYHrtPCeL69B-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;endArrow=diamondThin;endFill=0;endSize=21;strokeWidth=1;" parent="1" source="6mftjsSIlMzkUtPLvO8B-21" target="6mftjsSIlMzkUtPLvO8B-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oV1IMXi-cYHrtPCeL69B-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;endArrow=none;endFill=0;" parent="1" source="6mftjsSIlMzkUtPLvO8B-13" target="6mftjsSIlMzkUtPLvO8B-23" edge="1">
+        <mxCell id="oV1IMXi-cYHrtPCeL69B-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.765;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.113;entryDx=0;entryDy=0;rounded=1;endArrow=diamondThin;endFill=1;entryPerimeter=0;strokeWidth=1;endSize=21;exitPerimeter=0;" parent="1" source="6mftjsSIlMzkUtPLvO8B-13" target="6mftjsSIlMzkUtPLvO8B-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oV1IMXi-cYHrtPCeL69B-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=1;endArrow=none;endFill=0;" parent="1" source="6mftjsSIlMzkUtPLvO8B-25" target="6mftjsSIlMzkUtPLvO8B-29" edge="1">
+        <mxCell id="oV1IMXi-cYHrtPCeL69B-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;" parent="1" source="6mftjsSIlMzkUtPLvO8B-25" target="6mftjsSIlMzkUtPLvO8B-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1660" y="950" as="targetPoint" />
+            <mxPoint x="1910" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760" y="730" />
+              <mxPoint x="1760" y="975" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0o_zSi43XgyHZR8WwL3m-1" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="680" width="40" height="30" as="geometry" />
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-4" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="665" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-5" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="380" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-7" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="690" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-9" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="690" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTD9MlZ3PtRoemrQmSOG-10" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="930" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OB4cfpmHkRUq6rHv4Apl-4" value="almacena" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1660" y="959.9964561707043" as="geometry" />
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-1" value="Persona" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="400" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-2" value="- nombre : String&lt;br&gt;- edad : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0ho0NFWqCpbpftx3Brn2-1">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="0ho0NFWqCpbpftx3Brn2-1">
+          <mxGeometry y="60" width="220" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-4" value="+ Persona (&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nombre : String,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;edad : int&lt;br&gt;)&lt;br&gt;+ Persona (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nombre : String&lt;br&gt;)&lt;br&gt;+ getNombre () : String&lt;br&gt;+ setNombre (nombre : String) : void&lt;br&gt;+ getEdad () : int&lt;br&gt;+ setEdad (edad : int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0ho0NFWqCpbpftx3Brn2-1">
+          <mxGeometry y="70" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=none;endFill=0;endSize=21;strokeWidth=1;entryX=0;entryY=0.237;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=0;startSize=19;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0ho0NFWqCpbpftx3Brn2-2" target="6mftjsSIlMzkUtPLvO8B-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="460" as="sourcePoint" />
+            <mxPoint x="1080" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="443" />
+              <mxPoint x="920" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ho0NFWqCpbpftx3Brn2-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=none;endFill=0;endSize=21;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=0;startSize=20;" edge="1" parent="1" target="6mftjsSIlMzkUtPLvO8B-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="570" as="sourcePoint" />
+            <mxPoint x="980" y="361" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="570" />
+              <mxPoint x="920" y="705" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LsYtVRRj5curtRPHxbb-" name="Página-2">
-    <mxGraphModel dx="1402" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1190" dy="1994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3N6u4Y6C3xj2x8VZ_xUa-1" value="&lt;p&gt;Se desea diseñar el diagrama de clases que recoja la funcionalidad de&#xa; una agencia de viajes, la cual necesita poder gestionar las reservas de&#xa; hospedaje y vuelos que los turistas contratan. Los datos a tener en &#xa;cuenta son:&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Para poder realizar una reserva, es necesario que el turista esté registrado en la plataforma.&lt;/li&gt;&#xa;&lt;li&gt;Los &lt;strong&gt;turistas&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;De ellos se necesita almacenar el &lt;strong&gt;código de turista&lt;/strong&gt; (que es su DNI, 8 números seguidos de una letra), &lt;strong&gt;nombre completo&lt;/strong&gt;, es decir, nombre y apellidos, (que son una cadena de caracteres), &lt;strong&gt;dirección &lt;/strong&gt;(que también es una cadena de caracteres) y &lt;strong&gt;teléfono &lt;/strong&gt;(9 números).&lt;/li&gt;&#xa;&lt;li&gt;Para poder &lt;strong&gt;crear un turista&lt;/strong&gt;, basta con indicar su código de turista y su nombre completo.&lt;/li&gt;&#xa;&lt;li&gt;Como &lt;strong&gt;acciones&lt;/strong&gt;, no realiza ninguna.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;La agencia tiene contratados una serie de &lt;strong&gt;hoteles&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Cada uno definido por el &lt;strong&gt;código de hotel &lt;/strong&gt;(4 dígitos), &lt;strong&gt;nombre del hotel&lt;/strong&gt; (que es una cadena de caracteres), &lt;strong&gt;dirección &lt;/strong&gt;(que también es una cadena de caracteres), &lt;strong&gt;ciudad &lt;/strong&gt;(3 caracteres), &lt;strong&gt;teléfono&lt;/strong&gt; (9 números), &lt;strong&gt;un precio por noche&lt;/strong&gt; (un número decimal positivo mayor que 0) y &lt;strong&gt;número de plazas disponibles &lt;/strong&gt;(que es un entero positivo mayor de 0).&lt;/li&gt;&#xa;&lt;li&gt;Para poder&lt;strong&gt; crear un hotel&lt;/strong&gt;, es necesario indicar todos sus datos.&lt;/li&gt;&#xa;&lt;li&gt;Como &lt;strong&gt;acciones&lt;/strong&gt;, no realiza ninguna.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;De igual forma, la agencia también tiene contratados una serie de &lt;strong&gt;vuelos&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Cada uno de ellos definido por el &lt;strong&gt;número de vuelo&lt;/strong&gt; (3 dígitos), &lt;strong&gt;fecha y hora, origen&lt;/strong&gt;&amp;nbsp;(3 caracteres), &lt;strong&gt;destino &lt;/strong&gt;(3 caracteres),&lt;strong&gt; plazas totales&lt;/strong&gt; (que es un entero positivo mayor de 0) y &lt;strong&gt;plazas de clase turista de las que dispone&lt;/strong&gt; (que es un entero positivo mayor de 0 y menor que el número de plazas totales). También necesita almacenar &lt;strong&gt;los precios de las plazas turista y de las plazas de 1º clase&lt;/strong&gt; (ambos son números decimales mayores de 0).&lt;/li&gt;&#xa;&lt;li&gt;Para poder&lt;strong&gt; crear un vuelo&lt;/strong&gt;, es necesario indicar todos sus datos.&lt;br&gt;Como &lt;strong&gt;acciones&lt;/strong&gt;, no realiza ninguna.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;Las &lt;strong&gt;reservas&lt;/strong&gt;:&amp;nbsp;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Son realizadas por la agencia, y necesitan &lt;strong&gt;almacenar una &#xa;lista de los turistas que realizan la reserva, el hotel, el vuelo de ida&#xa; y el vuelo de vuelta y el precio total de la reserva&lt;/strong&gt; (que es un número decimal mayor que 0).&lt;/li&gt;&#xa;&lt;li&gt;Para poder &lt;strong&gt;crear una reserva&lt;/strong&gt; es necesario indicar todos los datos menos el precio, (este se calculará llamando a la acción &quot;calcular precio total&quot;).&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;Como &lt;strong&gt;acciones&lt;/strong&gt;:&amp;nbsp;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Debe poder &lt;strong&gt;calcular el precio total de la reserva&lt;/strong&gt;, &#xa;para lo que se necesitará indicar si el cliente desea plaza turista o 1º&#xa; clase. Devolverá el precio total de la reserva. Este método calculará &#xa;el número total de turistas que conforman la reserva y calculará el &#xa;precio como:&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;Precio_total = n_turistas * (precio_vuelo_ida + precio_vuelo_vuelta + precio_hotel*n_noches)&lt;/em&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;La&amp;nbsp;&lt;strong&gt;agencia&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Para un correcto funcionamiento de la aplicación, es necesario &lt;strong&gt;almacenar los turistas&lt;/strong&gt; que actualmente se encuentran dados de alta, &lt;strong&gt;los hoteles&lt;/strong&gt; que han colaborado en algún momento con la agencia y &lt;strong&gt;los vuelos&lt;/strong&gt; con los que actualmente cuenta. También debe &lt;strong&gt;almacenar las reservas realizadas&lt;/strong&gt;.&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;La agencia no necesita una acción de creación.&lt;/li&gt;&#xa;&lt;li&gt;Como &lt;strong&gt;acciones&lt;/strong&gt;:&#xa;&lt;ul&gt;&#xa;&lt;li&gt;Puede &lt;strong&gt;dar de alta turistas&lt;/strong&gt;, para lo que solicitará &#xa;la información requerida para la creación del mismo. Esta acción llamará&#xa; al constructor de turista (ten en cuenta que, en el propio método, se &#xa;deberá comprobar que el turista no se encuentra actualmente dado de &#xa;alta). Una vez creado será necesario almacenarlo junto al resto de &#xa;turistas. Devolverá el turista.&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;También puede &lt;strong&gt;crear reservas&lt;/strong&gt;, indicando para ello &#xa;los turistas que conformarán la reserva, el código del hotel, los &#xa;códigos de vuelo ida y destino y el tipo de plaza que desea el cliente &#xa;(turista o 1º clase). Esta acción deberá comprobar que se puede realizar&#xa; correctamente la reserva, comprobando que hay plazas disponibles en los&#xa; vuelos y sitio suficiente en el hotel, por lo que será necesario llamar&#xa; a los métodos &quot;comprobar vuelo&quot; (para ambos vuelos) y &quot;comprobar &#xa;hotel&quot;, descritos más adelante. Esta reserva deberá almacenarse junto al&#xa; resto de reservas. Se devolverá la reserva.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;Cuando se va a realizar la reserva &lt;strong&gt;se comprueba si hay plazas del tipo elegido en el vuelo indicado&lt;/strong&gt;&#xa; (puede ser de ida o vuelta). Para ello se debe indicar el vuelo, el &#xa;tipo de plaza y el número de turistas. En caso de no contar con plaza en&#xa; el vuelo, se aplicará algún algoritmo de búsqueda para encontrar un &#xa;vuelo similar en la fecha del vuelo original. Se devuelve el vuelo, ya &#xa;sea el que se ha introducido como argumento o uno nuevo.&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;Del mismo modo, &lt;strong&gt;se debe comprobar que hay suficiente sitio en el hotel elegido&lt;/strong&gt;.&#xa; Para ello, se indicará el número de turistas y el hotel en el que se &#xa;desea realizar la reserva. En caso de no contar con sitio suficiente, se&#xa; aplicará algún algoritmo de búsqueda para encontrar un nuevo hotel en &#xa;las fechas originales, en la misma ciudad donde el precio no supere un &#xa;10% del precio original del hotel. Se devolverá el hotel, ya sea el que &#xa;se ha pasado como argumento o uno nuevo.&amp;nbsp;&lt;/li&gt;&#xa;&lt;li&gt;Por último, la agencia también puede &lt;strong&gt;anular reservas&lt;/strong&gt;,&#xa; para lo que necesitará indicar el código de reserva. Esta acción &#xa;eliminará la reserva de la lista de reservas y no devolverá ningún &#xa;valor.&amp;nbsp;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p&gt;&lt;strong&gt;Realiza un diagrama de clases y añade los métodos necesarios &#xa;(get y set incluidos) para el correcto funcionamiento de la aplicación.&lt;/strong&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="60" width="560" height="2070" as="geometry" />
+          <mxGeometry x="190" y="-316" width="560" height="2070" as="geometry" />
         </mxCell>
         <mxCell id="emhmex_iAfa60MR93T8C-1" value="Turista" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="210" width="220" height="320" as="geometry" />
+          <mxGeometry x="890" y="460" width="220" height="320" as="geometry" />
         </mxCell>
         <mxCell id="emhmex_iAfa60MR93T8C-2" value="- codigo : String&lt;br&gt;- nombreCompleto : String&lt;br&gt;- direccion : String&lt;br&gt;- telefono : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="emhmex_iAfa60MR93T8C-1" vertex="1">
           <mxGeometry y="26" width="220" height="64" as="geometry" />
@@ -114,7 +164,7 @@
           <mxGeometry y="100" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="7dG_9GRs6uvZPwtzD98J-1" value="Hotel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="30" width="260" height="510" as="geometry" />
+          <mxGeometry x="1600" y="-40" width="260" height="510" as="geometry" />
         </mxCell>
         <mxCell id="7dG_9GRs6uvZPwtzD98J-2" value="- codigo : int&lt;br&gt;- nombre : String&lt;br&gt;- direccion : String&lt;br&gt;- ciudad : String&lt;br&gt;- telefono : int&lt;br&gt;- precioNoche : double&lt;br&gt;- plazaDisponibles : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7dG_9GRs6uvZPwtzD98J-1" vertex="1">
           <mxGeometry y="26" width="260" height="104" as="geometry" />
@@ -122,11 +172,11 @@
         <mxCell id="7dG_9GRs6uvZPwtzD98J-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7dG_9GRs6uvZPwtzD98J-1" vertex="1">
           <mxGeometry y="130" width="260" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="7dG_9GRs6uvZPwtzD98J-4" value="+ Hotel (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;codigo : int,&lt;br&gt;nombre : String,&lt;br&gt;direccion : String,&lt;br&gt;ciudad : String,&lt;br&gt;telefono : int,&lt;br&gt;precioNoche : float,&lt;br&gt;plazaDisponibles : int&lt;/blockquote&gt;)&lt;br&gt;+ getCodigo () : int&lt;br&gt;+ setCodigo (codigo : int) : void&lt;br&gt;+ getNombre () : String&lt;br&gt;+ setNombre (nombre : String) : void&lt;br&gt;+ getDireccion () : String&lt;br&gt;+ setDireccion (direccion : String) : void&lt;br&gt;+ getCiudad () : String&lt;br&gt;+ setCiudad (ciudad : String) : void&lt;br&gt;+ getTelefono () : int&lt;br&gt;+ setTelefono (telefono : int) : void&lt;br&gt;+ getPrecioNoche () : float&lt;br&gt;+ setPrecioNoche (precioNoche : float) : void&lt;br&gt;+ getPlazaDisponible () : int&lt;br&gt;+ setPlazaDisponible (&lt;br&gt;plazaDisponibles : int&lt;br&gt;) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7dG_9GRs6uvZPwtzD98J-1" vertex="1">
+        <mxCell id="7dG_9GRs6uvZPwtzD98J-4" value="+ Hotel (&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;codigo : int,&lt;br&gt;nombre : String,&lt;br&gt;direccion : String,&lt;br&gt;ciudad : String,&lt;br&gt;telefono : int,&lt;br&gt;precioNoche : float,&lt;br&gt;plazaDisponibles : int&lt;/blockquote&gt;)&lt;br&gt;+ getCodigo () : int&lt;br&gt;+ setCodigo (codigo : int) : void&lt;br&gt;+ getNombre () : String&lt;br&gt;+ setNombre (nombre : String) : void&lt;br&gt;+ getDireccion () : String&lt;br&gt;+ setDireccion (direccion : String) : void&lt;br&gt;+ getCiudad () : String&lt;br&gt;+ setCiudad (ciudad : String) : void&lt;br&gt;+ getTelefono () : int&lt;br&gt;+ setTelefono (telefono : int) : void&lt;br&gt;+ getPrecioNoche () : float&lt;br&gt;+ setPrecioNoche (precioNoche : float) : void&lt;br&gt;+ getPlazaDisponible () : int&lt;br&gt;+ setPlazaDisponible (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;plazaDisponibles : int&lt;br&gt;) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7dG_9GRs6uvZPwtzD98J-1" vertex="1">
           <mxGeometry y="140" width="260" height="370" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-1" value="Vuelo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="640" width="250" height="670" as="geometry" />
+          <mxGeometry x="1900" y="285" width="250" height="670" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-2" value="- numero : int&lt;br&gt;- fecha : String&lt;br&gt;- hora : String&lt;br&gt;- origen : String&lt;br&gt;- destino : String&lt;br&gt;- plazaTotales : int&lt;br&gt;- plazaTurista : int&lt;br&gt;- precioPlazaTurista : double&lt;br&gt;- precioPlazaPrimera : double&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0OWNi-XXaSICMWwKdLUP-1" vertex="1">
           <mxGeometry y="26" width="250" height="144" as="geometry" />
@@ -138,9 +188,9 @@
           <mxGeometry y="180" width="250" height="490" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-5" value="Reserva" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="610" width="210" height="510" as="geometry" />
+          <mxGeometry x="1230" y="400" width="210" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="0OWNi-XXaSICMWwKdLUP-6" value="- listaTuristas : [ ]Turista&lt;br&gt;- hotel : Hotel&lt;br&gt;- vueloIda : Vuelo&lt;br&gt;- vueloVuelta : Vuelo&lt;br&gt;- precio : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0OWNi-XXaSICMWwKdLUP-5" vertex="1">
+        <mxCell id="0OWNi-XXaSICMWwKdLUP-6" value="- listaTuristas : [ ] Turista&lt;br&gt;- hotel : Hotel&lt;br&gt;- vueloIda : Vuelo&lt;br&gt;- vueloVuelta : Vuelo&lt;br&gt;- precio : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0OWNi-XXaSICMWwKdLUP-5" vertex="1">
           <mxGeometry y="26" width="210" height="84" as="geometry" />
         </mxCell>
         <mxCell id="0OWNi-XXaSICMWwKdLUP-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="0OWNi-XXaSICMWwKdLUP-5" vertex="1">
@@ -150,7 +200,7 @@
           <mxGeometry y="120" width="210" height="390" as="geometry" />
         </mxCell>
         <mxCell id="qfWWRZhmSLWfRz27hhSE-1" value="Agencia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1190" width="220" height="510" as="geometry" />
+          <mxGeometry x="1020.5" y="-210" width="220" height="510" as="geometry" />
         </mxCell>
         <mxCell id="qfWWRZhmSLWfRz27hhSE-2" value="- altaTuristas : [ ] Turista&lt;br&gt;- colabHoteles : [ ] Hotel&lt;br&gt;- vuelosDispo : [ ] Vuelo&lt;br&gt;- reservRealizadas : [ ] Reserva" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qfWWRZhmSLWfRz27hhSE-1" vertex="1">
           <mxGeometry y="26" width="220" height="74" as="geometry" />
@@ -161,11 +211,97 @@
         <mxCell id="qfWWRZhmSLWfRz27hhSE-4" value="+ getAltaTuristas () : [ ] Turista&lt;br&gt;+ getColabHoteles () : [ ] Hotel&lt;br&gt;+ getVuelosDispo () : [ ] Vuelo&lt;br&gt;+ gerReservRealizadas () : [ ] Reserva&lt;br&gt;+ darAltaTurista (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;codigo : String,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nombreCompleto : String&lt;br&gt;) : Turista&lt;br&gt;+ creaReserva (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;turistaReserva : [ ] Turista,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;codHotel : int,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;codIda : int ,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;codVuelta : int&lt;br&gt;) : Reserva&lt;div&gt;+ compruebaPlazas (&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;vuelo : Vuelo,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tipoPlaza : int,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;numTuristas : int&lt;/div&gt;&lt;div&gt;) : Vuelo&lt;/div&gt;&lt;div&gt;+ compruebaHotel (&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;numTuristas : int,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;hotel : Hotel&lt;br&gt;&lt;/div&gt;&lt;div&gt;) : Hotel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ anulaReserva (&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;reverva : Reserva&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qfWWRZhmSLWfRz27hhSE-1" vertex="1">
           <mxGeometry y="110" width="220" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="q0ZZHFlamVa5fB0KFf0a-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="1270" as="targetPoint" />
+            <mxPoint x="1510" y="1270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0ZZHFlamVa5fB0KFf0a-2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1000" as="targetPoint" />
+            <mxPoint x="1480" y="1000" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0ZZHFlamVa5fB0KFf0a-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="emhmex_iAfa60MR93T8C-4" target="qfWWRZhmSLWfRz27hhSE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="380" as="targetPoint" />
+            <mxPoint x="1140" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="850" y="670" />
+              <mxPoint x="850" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMjaCpZujQ8A_wm1WFyE-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.41;entryDx=0;entryDy=0;rounded=1;endArrow=diamondThin;endFill=0;endSize=21;strokeWidth=1;entryPerimeter=0;" edge="1" parent="1" source="emhmex_iAfa60MR93T8C-4" target="0OWNi-XXaSICMWwKdLUP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="715" as="sourcePoint" />
+            <mxPoint x="1210" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="680" />
+              <mxPoint x="1130" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMjaCpZujQ8A_wm1WFyE-2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0OWNi-XXaSICMWwKdLUP-4" target="0OWNi-XXaSICMWwKdLUP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="710" />
+              <mxPoint x="1490" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMjaCpZujQ8A_wm1WFyE-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=none;endFill=0;entryX=1;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0OWNi-XXaSICMWwKdLUP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="290" as="sourcePoint" />
+            <mxPoint x="1450" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1560" y="290" />
+              <mxPoint x="1560" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMjaCpZujQ8A_wm1WFyE-6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;entryX=0.998;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qfWWRZhmSLWfRz27hhSE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="-60" as="targetPoint" />
+            <mxPoint x="1600" y="184" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMjaCpZujQ8A_wm1WFyE-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;entryX=0.999;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0OWNi-XXaSICMWwKdLUP-4" target="qfWWRZhmSLWfRz27hhSE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="-40" as="targetPoint" />
+            <mxPoint x="2350" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2210" y="510" />
+              <mxPoint x="2210" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0ZZHFlamVa5fB0KFf0a-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;endArrow=diamondThin;endFill=1;endSize=21;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0OWNi-XXaSICMWwKdLUP-8" target="qfWWRZhmSLWfRz27hhSE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360.92" y="-233" as="targetPoint" />
+            <mxPoint x="1230" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1160.5" y="550" />
+              <mxPoint x="1160.5" y="360" />
+              <mxPoint x="940.5" y="360" />
+              <mxPoint x="940.5" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="eXEbMX5RKInU-LIk0w0w" name="Página-3">
-    <mxGraphModel dx="1703" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -251,7 +387,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="25cwys3pBY4JNydZQdeh" name="Página-4">
-    <mxGraphModel dx="993" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1731" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
