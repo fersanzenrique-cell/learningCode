@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de la compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="formulario">
+        <h1>Lista de la compra</h1>
+
+        <label>Artículo</label>
+        <input type="text" id="articulo">
+
+        <label>Cantidad</label>
+        <input type="text" id="cantidad">
+
+        <label>Categoría</label>
+        <input type="text" id="categoria">
+
+        <button type="button" id="btnAgregar">Añadir a la lista</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+    <h2 id="mensaje"></h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Artículo</th>
+                <th>Cantidad</th>
+                <th>Categoría</th>
+                <th>Borrar</th>
+            </tr>
+        </thead>
+        <tbody id="tablaBody">
+        </tbody>
+    </table>
+
+    <footer>
+        CFGS DAM · Lenguajes de Marcas
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
