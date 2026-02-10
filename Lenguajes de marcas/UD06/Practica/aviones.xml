@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--La práctica ira vehiculos de aire militares y como queremos guardar datos sobre ellos-->
+<hangar geolocalizacion=""> <!--coordenadas-->
+    <aviones>
+        <superioridad-aerea>
+            <asignacion nombre-nato="">
+                <informacion veridica="">
+                    <radar-signature es-sigilo=""></radar-signature>
+                    <radar-distance tipo=""></radar-distance>
+                    <areal-range has-air-refueling=""></areal-range>
+                    <top-speed has-afterburner=""></top-speed>
+                    <armamento>
+                        <aire-tierra>
+                            <agm-sixtyeight></agm-sixtyeight>
+                        </aire-tierra>
+                        <aire-aire>
+
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion=""></desc>
+                </informacion>
+            </asignacion>
+        </superioridad-aerea>
+        <cas> <!--se refiere a close air support-->
+
+        </cas>
+        <multirol>
+
+        </multirol>
+    </aviones>
+    <helicopteros>
+        <recon>
+
+        </recon>
+        <ataque>
+
+        </ataque>
+    </helicopteros>
+    <drones>
+        <bombardero>
+
+        </bombardero>
+        <kamikaze>
+
+        </kamikaze>
+    </drones>
+</hangar>

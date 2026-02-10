@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE libro SYSTEM "ej1.dtd">
+<libro>
+    <titulo></titulo>
+    <autor>
+        <nombre></nombre>
+        <apellido></apellido>
+    </autor>
+    <year-publicacion></year-publicacion>
+    <resumen></resumen>
+    <capitulo cap-titulo="">
+        <numero></numero>
+    </capitulo>
+</libro>
