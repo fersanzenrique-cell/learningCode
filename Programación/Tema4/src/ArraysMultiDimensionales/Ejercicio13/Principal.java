@@ -14,7 +14,7 @@ public class Principal {
             "¡Has creado una matriz de " + mat.getM() + " columnas y " + mat.getN() + " filas!" 
         );
         mat.inicializarMatriz();
-        Arrays2D.DisplayMatriz(mat);
+        
         menu();
     }
 
