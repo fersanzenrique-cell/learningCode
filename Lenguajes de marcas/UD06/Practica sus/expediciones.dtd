@@ -1,0 +1,50 @@
+<!ELEMENT plataforma (investigadores, expediciones)>
+
+<!ELEMENT investigadores (investigador+)>
+<!ELEMENT investigador (nombre, pais, email)>
+<!ATTLIST investigador
+    id ID #REQUIRED
+    especialidad CDATA #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT expediciones (expedicion+)>
+<!ELEMENT expedicion (titulo, ubicacion, fechaInicio, duracion, presupuesto, equipo)>
+<!ATTLIST expedicion
+    codigo ID #REQUIRED
+    estado (activa | finalizada | planificada) #REQUIRED
+>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT ubicacion (pais, coordenadas)>
+<!ATTLIST ubicacion
+    continente CDATA #REQUIRED
+>
+
+<!ELEMENT coordenadas EMPTY>
+<!ATTLIST coordenadas
+    latitud CDATA #REQUIRED
+    longitud CDATA #REQUIRED
+>
+
+<!ELEMENT fechaInicio (#PCDATA)>
+
+<!ELEMENT duracion EMPTY>
+<!ATTLIST duracion
+    dias CDATA #REQUIRED
+>
+
+<!ELEMENT presupuesto (#PCDATA)>
+<!ATTLIST presupuesto
+    moneda CDATA #REQUIRED
+>
+
+<!ELEMENT equipo (miembro+)>
+<!ELEMENT miembro EMPTY>
+<!ATTLIST miembro
+    refInvestigador IDREF #REQUIRED
+>

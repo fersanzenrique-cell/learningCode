@@ -1,0 +1,8 @@
+<!ELEMENT muebles (fabricante*,modelo*)>
+<!ELEMENT fabricante (nombre,muebles)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre provincia-procedencia CDATA "">
+<!ELEMENT modelo (nombre,precio)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST nombre year-fabricacion CDATA "">
+<!ATTLIST nombre estancia CDATA "">

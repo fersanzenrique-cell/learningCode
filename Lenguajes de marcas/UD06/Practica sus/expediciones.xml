@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plataforma SYSTEM "expediciones.dtd">
+<plataforma>
+    
+    <investigadores>
+        <investigador id="INV001" especialidad="Biología">
+            <nombre>Ana Torres</nombre>
+            <pais>España</pais>
+            <email>ana.torres@ciencia.org</email>
+        </investigador>
+
+        <investigador id="INV002" especialidad="Geología">
+            <nombre>Lucas Meyer</nombre>
+            <pais>Alemania</pais>
+            <email>lucas.meyer@research.eu</email>
+        </investigador>
+
+        <investigador id="INV003" especialidad="Climatología">
+            <nombre>María López</nombre>
+            <pais>Chile</pais>
+            <email>maria.lopez@clima.cl</email>
+        </investigador>
+    </investigadores>
+
+    <expediciones>
+        <expedicion codigo="EXP100" estado="activa">
+            <titulo>Estudio del deshielo en Groenlandia</titulo>
+            <ubicacion continente="Europa">
+                <pais>Groenlandia</pais>
+                <coordenadas latitud="72.000" longitud="-40.000"/>
+            </ubicacion>
+            <fechaInicio>2025-06-10</fechaInicio>
+            <duracion dias="120"/>
+            <presupuesto moneda="EUR">250000</presupuesto>
+            <equipo>
+                <miembro refInvestigador="INV001"/>
+                <miembro refInvestigador="INV003"/>
+            </equipo>
+        </expedicion>
+
+        <expedicion codigo="EXP200" estado="planificada">
+            <titulo>Actividad volcánica en Islandia</titulo>
+            <ubicacion continente="Europa">
+                <pais>Islandia</pais>
+                <coordenadas latitud="64.963" longitud="-19.020"/>
+            </ubicacion>
+            <fechaInicio>2026-03-15</fechaInicio>
+            <duracion dias="90"/>
+            <presupuesto moneda="USD">180000</presupuesto>
+            <equipo>
+                <miembro refInvestigador="INV002"/>
+            </equipo>
+        </expedicion>
+    </expediciones>
+
+</plataforma>
