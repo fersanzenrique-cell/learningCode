@@ -1,4 +1,5 @@
 /*show error*/
+/*set pagesize*/
 
 create or replace procedure procedimiento(/*parametros (in,out,in out)*/)is 
     declare 
@@ -99,3 +100,30 @@ begin
     close profes;
 end;
 /
+/*una funcion devuelve un valor y un procedimiento no*/
+create or replace function mediaAlumno(cred Asignaturas.creditos%type)
+    return Number is  
+        v_media Asignaturas.alumnos%type;
+    begin
+    select avg(alumnos)
+        into v_media
+        from Asignaturas
+    where creditos=cred;
+    return v_media;
+end mediaAlumno; 
+
+declare
+    cursor c_creditos is 
+        select distinct(creditos) from Asignaturas
+    v_creditos Asignaturas.creditos%type;
+    v_media Asignaturas.alumnos%type;
+begin
+  open c_creditos;
+    loop
+        fetch c_credtios into v_creditos;
+        v_media := mediaAlumno(v_creditos);
+        dbms_output.put_line(v_creditos || '' || v_media);
+        exit when c_creditos%notfound;
+    end loop
+    close c_creditos;
+end;
