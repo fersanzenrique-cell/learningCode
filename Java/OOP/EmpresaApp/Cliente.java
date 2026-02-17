@@ -1,8 +1,8 @@
 package Java.OOP.EmpresaApp;
 
-class Cliente extends Persona{
+public class Cliente extends Persona{
     private int telf;
-    Cliente (String n){
+    public Cliente (String n){
         super(n);
     }
     public int getTelf() {

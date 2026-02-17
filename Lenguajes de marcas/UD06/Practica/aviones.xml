@@ -1,47 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--La práctica ira vehiculos de aire militares y como queremos guardar datos sobre ellos-->
-<hangar geolocalizacion=""> <!--coordenadas-->
+<!DOCTYPE aviones SYSTEM "aviones.dtd">
+<hangar geolocalizacion="40.4168,-3.7038"> <!--Madrid, España-->
     <aviones>
-        <superioridad-aerea>
-            <asignacion nombre-nato="">
-                <informacion veridica="">
-                    <radar-signature es-sigilo=""></radar-signature>
-                    <radar-distance tipo=""></radar-distance>
-                    <areal-range has-air-refueling=""></areal-range>
-                    <top-speed has-afterburner=""></top-speed>
+        <avion tipo="superioridad-aerea">
+            <asignacion nombre-nato="Typhoon">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">0.5</radar-signature> 
+                    <!--En metros cuadrados RCS aproximado-->
+                    <radar-distance tipo="CAPTOR-E AESA">200 km</radar-distance>
+                    <areal-range has-air-refueling="Yes">2900 km</areal-range>
+                    <top-speed has-afterburner="Yes">Mach 2.0</top-speed>
                     <armamento>
                         <aire-tierra>
-                            <agm-sixtyeight></agm-sixtyeight>
+                           <misiles>Brimstone</misiles> 
+                           <gravedad>Paveway IV</gravedad>
+                           <rifle>27mm Mauser BK-27</rifle>
                         </aire-tierra>
                         <aire-aire>
-                            
+                            <misiles>AIM-120 AMRAAM</misiles>
+                            <misiles>IRIS-T</misiles>
+                            <rifle>27mm HEI</rifle>
                         </aire-aire>
                     </armamento>
-                    <desc generacion=""></desc>
+                    <desc generacion="4.5">Caza de superioridad aérea europeo bimotor altamente maniobrable.</desc>
                 </informacion>
             </asignacion>
-        </superioridad-aerea>
-        <cas> <!--se refiere a close air support-->
+            <asignacion nombre-nato="Raptor">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="Yes">0.0001</radar-signature>
+                    <radar-distance tipo="AN/APG-77 AESA">240 km</radar-distance>
+                    <areal-range has-air-refueling="Yes">2960 km</areal-range>
+                    <top-speed has-afterburner="Yes">Mach 2.25</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>GBU-32 JDAM</misiles> 
+                           <gravedad>GBU-39 SDB</gravedad>
+                           <rifle>20mm M61A2 Vulcan</rifle>
+                        </aire-tierra>
+                        <aire-aire>
+                            <misiles>AIM-120C AMRAAM</misiles>
+                            <misiles>AIM-9X Sidewinder</misiles>
+                            <rifle>20mm HE</rifle>
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion="5">Caza furtivo de quinta generación con supercrucero.</desc>
+                </informacion>
+            </asignacion>
+        </avion>
 
-        </cas>
-        <multirol>
+        <avion tipo="cas"> <!--close air support-->
+            <asignacion nombre-nato="Warthog">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">1.0</radar-signature>
+                    <radar-distance tipo="AN/APG-66 mod">150 km</radar-distance>
+                    <areal-range has-air-refueling="Yes">4150 km</areal-range>
+                    <top-speed has-afterburner="No">706 km/h</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>AGM-65 Maverick</misiles> 
+                           <gravedad>MK-82</gravedad>
+                           <rifle>30mm GAU-8 Avenger</rifle>
+                        </aire-tierra>
+                        <aire-aire>
+                            <misiles>AIM-9 Sidewinder</misiles>
+                            <rifle>30mm API</rifle>
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion="4">Avión especializado en apoyo aéreo cercano y ataque a tierra.</desc>
+                </informacion>
+            </asignacion>
+        </avion>
 
-        </multirol>
+        <avion="multirol">
+            <asignacion nombre-nato="Lightning II">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="Yes">0.0015</radar-signature>
+                    <radar-distance tipo="AN/APG-81 AESA">220 km</radar-distance>
+                    <areal-range has-air-refueling="Yes">2800 km</areal-range>
+                    <top-speed has-afterburner="Yes">Mach 1.6</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>AGM-158 JASSM</misiles> 
+                           <gravedad>GBU-53 SDB II</gravedad>
+                           <rifle>25mm GAU-22/A</rifle>
+                        </aire-tierra>
+                        <aire-aire>
+                            <misiles>AIM-120D AMRAAM</misiles>
+                            <misiles>AIM-9X</misiles>
+                            <rifle>25mm HEI</rifle>
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion="5">Caza multifunción furtivo con sensores fusionados.</desc>
+                </informacion>
+            </asignacion>
+        </avion>
     </aviones>
+
     <helicopteros>
-        <recon>
+        <heli="recon">
+            <asignacion nombre-nato="Kiowa">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">2.0</radar-signature>
+                    <radar-distance tipo="Mast Mounted Sight">50 km</radar-distance>
+                    <areal-range has-air-refueling="No">480 km</areal-range>
+                    <top-speed has-afterburner="No">240 km/h</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>AGM-114 Hellfire</misiles> 
+                           <rifle>12.7mm M3P</rifle>
+                        </aire-tierra>
+                        <aire-aire>
+                            <misiles>Stinger</misiles>
+                            <rifle>7.62mm</rifle>
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion="3">Helicóptero ligero de reconocimiento armado.</desc>
+                </informacion>
+            </asignacion>
+        </heli>
 
-        </recon>
-        <ataque>
-
-        </ataque>
+        <heli="ataque">
+            <asignacion nombre-nato="Apache">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">1.8</radar-signature>
+                    <radar-distance tipo="AN/APG-78 Longbow">100 km</radar-distance>
+                    <areal-range has-air-refueling="No">480 km</areal-range>
+                    <top-speed has-afterburner="No">293 km/h</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>AGM-114 Hellfire</misiles> 
+                           <gravedad>Hydra 70</gravedad>
+                           <rifle>30mm M230</rifle>
+                        </aire-tierra>
+                        <aire-aire>
+                            <misiles>Stinger</misiles>
+                            <rifle>30mm HE</rifle>
+                        </aire-aire>
+                    </armamento>
+                    <desc generacion="4">Helicóptero de ataque pesado con radar Longbow.</desc>
+                </informacion>
+            </asignacion>
+        </heli=ataque>
     </helicopteros>
+
     <drones>
-        <bombardero>
+        <dron="bombardero">
+            <asignacion nombre-nato="Reaper">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">0.3</radar-signature>
+                    <radar-distance tipo="AN/APY-8 Lynx">80 km</radar-distance>
+                    <areal-range has-air-refueling="No">1850 km</areal-range>
+                    <top-speed has-afterburner="No">482 km/h</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>AGM-114 Hellfire</misiles> 
+                           <gravedad>GBU-12</gravedad>
+                        </aire-tierra>
+                        <aire-aire></aire-aire>
+                    </armamento>
+                    <desc generacion="4">UAV MALE de vigilancia y ataque de larga duración.</desc>
+                </informacion>
+            </asignacion>
+        </dron>
 
-        </bombardero>
-        <kamikaze>
-
-        </kamikaze>
+        <dron="kamikaze">
+            <asignacion nombre-nato="Shahed-136">
+                <informacion veridica="True">
+                    <radar-signature es-sigilo="No">0.6</radar-signature>
+                    <radar-distance tipo="GPS guiado">40 km</radar-distance>
+                    <areal-range has-air-refueling="No">2500 km</areal-range>
+                    <top-speed has-afterburner="No">185 km/h</top-speed>
+                    <armamento>
+                        <aire-tierra>
+                           <misiles>Carga explosiva integrada</misiles> 
+                        </aire-tierra>
+                        <aire-aire></aire-aire>
+                    </armamento>
+                    <desc generacion="3">Munición merodeadora de largo alcance tipo kamikaze.</desc>
+                </informacion>
+            </asignacion>
+        </dron>
     </drones>
 </hangar>

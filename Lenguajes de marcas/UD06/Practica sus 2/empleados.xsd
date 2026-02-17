@@ -8,7 +8,8 @@
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string"/>
                             <xs:element name="apellido" type="xs:string"/>
-                            <xs:element name="edad" type="xs:integer"/>
+                            <xs:element name="edad" type="xs:integer" minValue="18" maxValue="65"/>
+                            <!-- Repasa lo de minValue y maxValue -->
                             <xs:element name="departamento" type="xs:string"/>
                             <xs:element name="cargo" type="xs:string"/>
                         </xs:sequence>

@@ -1,7 +1,7 @@
 package Java.OOP.EmpresaApp;
 import java.util.ArrayList;
 
-class Empresa {
+public class Empresa {
 
     private String nombre;
     private ArrayList<Empleado> empleados;

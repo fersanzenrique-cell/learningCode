@@ -1,25 +1,25 @@
 package Java.OOP.EmpresaApp;
 
-class Persona {
+public class Persona {
     private String nombre;
     private int edad;
-    Persona (String n, int e) {
+    public Persona (String n, int e) {
         this.nombre = n;
         this.edad = e;
     }
-    Persona (String n) {
+    public Persona (String n) {
         this.nombre = n;
     }
-    String getNombre() {
+    public String getNombre() {
         return nombre;
     }
-    void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    int getEdad() {
+    public int getEdad() {
         return edad;
     }
-    void setEdad(int edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 }

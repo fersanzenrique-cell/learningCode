@@ -1,0 +1,4 @@
+<!ELEMENT hangar (aviones,helicopteros,drones)>
+<!ATTLIST hangar geolocalizacion CDATA #REQUIRED>
+<!ELEMENT aviones (avion*)>
+<!ATTLIST avion tipo CDATA #REQUIRED>

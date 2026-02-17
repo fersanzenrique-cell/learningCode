@@ -7,11 +7,11 @@ public class Empleado extends Persona {
     private char categoria;
     private ArrayList<Empleado> subordinados;
 
-    Empleado (String n, int e, double s) {
+    public Empleado (String n, int e, double s) {
         super(n,e);
         this.sueldoBruto = s;
     }
-    Empleado (String n, int e, double s, char cat, ArrayList <Empleado> sub) {
+    public Empleado (String n, int e, double s, char cat, ArrayList <Empleado> sub) {
         super(n,e);
         this.sueldoBruto = e;
         this.categoria = cat;

@@ -6,6 +6,10 @@
 >> - [ ] Hecho.
 > ---
 >### 2. Ampliación de sistemas
->> - Vagrant, 23/02/2026
+>> - Vagrant, 24/02/2026
+>> - [ ] Hecho.
+> ---
+>### 3. Examen Linux
+>> - Crear notas de linux, 27/02/2026
 >> - [ ] Hecho.
 > ---
