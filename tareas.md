@@ -17,7 +17,9 @@
 > ### Tareas
 >> - [x] Crear aviones.xsd
 >> - [ ] Diferenciar ArrayList y List
->> - [ ] Manejar excepciones en OOP/EmpresaApp
+>> - [ ] Manejar excepciones en OOP/EmpresaApp, fijate en como se hace en el packete com, constructores copia
 >> - [ ] Indaga sobre new String(), direcciones y valores, encapsulación y haz empresaApp de nuevo
+>> - [ ] Seguir con la lsp-config
 > ---
 > ## Tareas Grandes
+>> - [ ] Recrear EmpersaApp con la guia de acentur al principio del aula virtual de programacion, 
