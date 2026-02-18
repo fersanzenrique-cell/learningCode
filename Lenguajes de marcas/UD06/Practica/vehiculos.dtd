@@ -1,0 +1,14 @@
+<!ELEMENT vehiculos (marca+)>
+<!ELEMENT marca (modelo+)>
+<!ATTLIST marca 
+    id ID #REQUIRED
+    pais-de-origen CDATA #REQUIRED
+    nombre CDATA #REQUIRED>
+
+<!ELEMENT modelo (nombre,year,precio)>
+<!ATTLIST modelo 
+    tipo-vehiculo CDATA #REQUIRED
+    marca IDREF #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

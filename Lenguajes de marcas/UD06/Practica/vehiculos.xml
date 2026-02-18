@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculos SYSTEM "vehiculos.dtd">
+<vehiculos>
+    <marca id="m1" pais-de-origen="Alemania" nombre="BMW">
+        <modelo marca="m1" tipo-vehiculo="SUV">
+            <nombre>BMW-1</nombre><year>2020</year><precio>15000</precio>
+        </modelo>
+        <modelo marca="m1" tipo-vehiculo="sedan">
+            <nombre>BMW-2</nombre><year>2022</year><precio>14000</precio>
+        </modelo> 
+    </marca>
+    <marca id="m2" pais-de-origen="España" nombre="SEAT">
+        <modelo marca="m2" tipo-vehiculo="hatchback">
+            <nombre>SEAT-1</nombre><year>2011</year><precio>5000</precio>
+        </modelo>
+        <modelo marca="m2" tipo-vehiculo="sedan">
+            <nombre>SEAT-2</nombre><year>2012</year><precio>4000</precio>
+        </modelo> 
+    </marca>
+</vehiculos>

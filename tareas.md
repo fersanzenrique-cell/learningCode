@@ -9,13 +9,13 @@
 > #### Mini Tareas
 >> - [x] Instalar oracle en torre
 >> - [ ] Corregir empleados.xsd
->> - [ ] Seguir aviones.dtd
+>> - [x] Seguir aviones.dtd
 >> - [ ] Hacer de Empleado una clase implicita jefe
 >> - [ ] Pool de string?, para comparar contenidos y no direcciones SIEMPRE usar equals
 
 > ---
 > ### Tareas
->> - [ ] Crear aviones.xsd
+>> - [x] Crear aviones.xsd
 >> - [ ] Diferenciar ArrayList y List
 >> - [ ] Manejar excepciones en OOP/EmpresaApp
 >> - [ ] Indaga sobre new String(), direcciones y valores, encapsulación y haz empresaApp de nuevo
