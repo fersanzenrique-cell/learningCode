@@ -18,8 +18,7 @@ public class Aplicacion {
         if (e == null || e.getClientes() == null) return null;
 
         for (Cliente cliente : e.getClientes()) {
-            // Tambien puedes usar  if (Integer.valueOf(cliente.getTelf()).equals(t))
-            if (cliente.getTelf() == t) {
+            if (Integer.valueOf(cliente.getTelf()).equals(t)) {
                 return cliente;
             }
         }
@@ -82,19 +81,6 @@ public class Aplicacion {
                 empleados,
                 clientes
         );
-
-
-        // ===== APLICACION =====
-        Aplicacion app = new Aplicacion();
-
-        // Inicializar lista de empresas (si no lo hiciste en constructor)
-        ArrayList<Empresa> listaEmpresas = new ArrayList<>();
-        listaEmpresas.add(empresa);
-
-
-        // ===== PRUEBAS =====
-
-        System.out.println("Empresa: " + empresa.getNombre());
 
         System.out.println("\nClientes:");
         for (Cliente c : empresa.getClientes()) {

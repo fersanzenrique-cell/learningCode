@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM 4</title>
+</head>
+
+<body>
+
+    <button onclick="mostrar('Botón 1')">Botón 1</button>
+    <button onclick="mostrar('Botón 2')">Botón 2</button>
+    <button onclick="mostrar('Botón 3')">Botón 3</button>
+
+    <div id="info"></div>
+
+    <script>
+        function mostrar(texto) {
+            document.getElementById("info").textContent = texto;
+        }
+    </script>
+
+</body>
+
+</html>

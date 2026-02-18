@@ -1,0 +1,22 @@
+/*1. Detecta los errores del siguiente fichero en formato JSON*/
+{
+    
+    “pelicula”: “El resplandor” , // Todos los elementos en el ejercicio no estan en dobles comillas, todo esta mal.
+    “director”: “Stanley Kubrick” // No tiene coma
+    “estreno”; 1980,
+    “reparto”: [
+    {
+    “nombre”: “Jack Nicholson”,
+    “personaje”: “JAck Torrance”
+    } // Falta coma
+    {
+    “nombre”: “Shelley Duvall”,
+    “personaje”: “Wendy Torrance”
+    },
+    {
+    “nombre”: “Danny Lloid”,
+    “personaje”: “Danny Torrance”
+     // Falta cierre de corchete
+    ]
+}
+

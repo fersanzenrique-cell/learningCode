@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+    <!ELEMENT animales (animal*)>
+    <!ELEMENT animal (perro,gato)> <!--los elementos perros y gatos no estaban declarados-->
+    <!ELEMENT perro (#PCDATA)>
+    <!ELEMENT gato (#PCDATA)>
+]>
+<animales>
+    <animal>
+        <perro>Caniche</perro> <!-- la etiqueta animal no estaba creada-->
+        <gato>Siamés</gato>
+    </animal>
+</animales>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>Ejercicio 2</title>
+    </head>
+    <body id="cuestionario">
+        <h2>Ejercicio 2</h2>
+        <label for="nombre">Nombre: 
+        <input id="nombre" type="text" required>
+        </label>
+        <br/>
+        <label for="apellidos">Apellidos:
+        <input id="apellidos" type="text">
+        </label>
+        <br/>
+        <label for="fechaNacimiento">Fecha de nacimiento: 
+        <input id="fechaNacimiento" type="date">
+        </label>
+        <br/>
+        <label for="email">Email: 
+        <input id="email" type="email">
+        </label>
+        <!-- Los labels recubren todo la etiqueta de input -->
+        <!-- La manera para hacer necesario presionar un boton (o lo que sea, un select) es poner el nombre en todos ellos -->
+        <br/>
+        <button onclick="Animacion()">Cambio de colores</button>
+    </body>
+    <script type="text/javascript">
+
+        function Animacion() {
+
+            var x = document.getElementById("cuestionario");
+            var y = x.getElementsByTagName("input");
+            y[0].style.borderColor = "blue";
+            y[1].style.borderColor = "red";
+            y[2].style.borderColor = "green";
+            y[3].style.borderColor = "blue";
+            
+        }
+
+        var nombre = document.getElementById("nombre").value().trim();
+        if (nombre === '') {
+            alert("Rellena este espacio");
+        }
+        // investiga sobre el queryselector, en selects es util, y es la unica manera de procesar el input dentro
+
+    </script>
+</html>

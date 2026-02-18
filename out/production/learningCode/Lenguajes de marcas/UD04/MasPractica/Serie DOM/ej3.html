@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>ejercicio3</title>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <a href="https://github.com/" id="enlace">Enlace1</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" id="enlace">Enlace2</a>
+            </li>
+            <li>
+                <a href="https://aulavirtual33.educa.madrid.org/ies.elcanaveral.mostoles/" id="enlace">Enlace3</a>
+            </li>
+        </ul>
+        <br/>
+        <label for="cuadroTexto">
+            ->
+            <input id="cuadroTexto" type="textarea" size="10" rows="" cols="">
+            <-
+        </label>
+    </body>
+    <script type="text/javascript">
+        function enlaceTexto() {
+
+            const enlaces = document.getElementsByTagName('a');
+            let cuadroTexto = document.getElementById('cuadroTexto');
+            
+            for (const enlace of enlaces) {
+               enlace.addEventListener('mouseover',
+                    function() {
+                        cuadroTexto.value = this.getAttribute('href');
+                        cuadroTexto.size = this.getAttribute('href').length;
+                        
+                    }
+               );
+               enlace.addEventListener('mouseout',
+                    function() {
+                        cuadroTexto.value = this.getAttribute('');
+                        cuadroTexto.size = 10;
+                    }
+               )
+                
+            }
+        
+        }
+        enlaceTexto();
+        // maravilloso!!
+
+    </script>
+</html>

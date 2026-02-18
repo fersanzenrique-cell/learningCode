@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM 7</title>
+</head>
+
+<body>
+
+    <form>
+        <input type="radio" name="dep">Fútbol<br>
+        <input type="radio" name="dep">Baloncesto<br>
+        <input type="radio" name="dep">Tenis<br>
+        <input type="radio" name="dep" onclick="mostrar()">Otro<br>
+
+        <input type="text" id="otro" style="display:none">
+    </form>
+
+    <script>
+        function mostrar() {
+            document.getElementById("otro").style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

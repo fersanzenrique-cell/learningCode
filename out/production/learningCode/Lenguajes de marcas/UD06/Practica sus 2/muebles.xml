@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE muebles SYSTEM "muebles.dtd">
+<muebles>
+    <fabricante>
+        <nombre provincia-procedencia="Suecia">IKEA</nombre>
+        <muebles>
+            <modelo>
+                <nombre year-fabricacion="2022" estancia="salón">EKTORP Sofá 3 plazas</nombre>
+                <precio>399€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2021" estancia="dormitorio">MALM Cama con almacenaje</nombre>
+                <precio>299€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2023" estancia="comedor">INGATORP Mesa extensible</nombre>
+                <precio>349€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2020" estancia="oficina">MICKE Escritorio</nombre>
+                <precio>89€</precio>
+            </modelo>
+        </muebles>
+    </fabricante>
+    <fabricante>
+        <nombre provincia-procedencia="Francia">Conforoma</nombre>
+        <muebles>
+            <modelo>
+                <nombre year-fabricacion="2022" estancia="salón">Sofá Chaise Longue Alina</nombre>
+                <precio>549€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2021" estancia="dormitorio">Armario Dream 3 puertas</nombre>
+                <precio>479€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2023" estancia="comedor">Mesa de comedor Oslo</nombre>
+                <precio>259€</precio>
+            </modelo>
+            <modelo>
+                <nombre year-fabricacion="2020" estancia="oficina">Silla de oficina Urban</nombre>
+                <precio>119€</precio>
+            </modelo>
+        </muebles>
+    </fabricante>
+</muebles>

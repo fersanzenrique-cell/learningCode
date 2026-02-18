@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM 1</title>
+</head>
+
+<body>
+
+    <ol id="lista">
+        <li>Elemento inicial</li>
+    </ol>
+
+    <button onclick="añadir()">Añadir</button>
+    <button onclick="borrarPrimero()">Borrar primer elemento</button>
+    <button onclick="borrarUltimo()">Borrar último elemento</button>
+
+    <script>
+        function añadir() {
+            let texto = prompt("Introduce texto");
+            let li = document.createElement("li");
+            li.textContent = texto;
+            document.getElementById("lista").appendChild(li);
+        }
+
+        function borrarPrimero() {
+            let lista = document.getElementById("lista");
+            if (lista.firstChild) lista.removeChild(lista.firstChild);
+        }
+
+        function borrarUltimo() {
+            let lista = document.getElementById("lista");
+            if (lista.lastChild) lista.removeChild(lista.lastChild);
+        }
+    </script>
+
+</body>
+
+</html>

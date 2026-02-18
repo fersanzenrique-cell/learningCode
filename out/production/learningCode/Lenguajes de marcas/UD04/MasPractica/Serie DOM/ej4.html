@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>Ejercicio4</title>
+    </head>
+    <body>
+        <label>
+            <button type="button">1</button>
+        </label>
+        <label>
+            <button type="submit">2</button>
+        </label>
+        <label>
+            <button type="reset">3</button>
+        </label>
+        <div id="divTexto">
+
+        </div>
+    </body>
+    <script type="text/javascript">
+        function botonPresionado() {
+            const botones = document.getElementsByTagName('button');
+            let div = document.getElementById('divTexto');
+            for (const boton of botones) {
+                let info = boton.getAttribute('type');
+                boton.addEventListener('onclick', 
+                    function() {
+                        console.log(this.getAttribute('type'));
+                        div.createElement('p');
+                        div.appendChild(this.getAttribute('type'));
+                    }
+                )
+            }
+        }
+        botonPresionado();
+        
+    </script>
+</html>

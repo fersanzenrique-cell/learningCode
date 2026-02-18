@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>UD02Estructura1</title>
+    </head> 
+    <br>
+        <header style="text-align: right;">
+            <h1>Drivers de
+
+                <img src="nvidia.gif" id="inicio" alt="nvidia moving logo" width="200">
+                
+            </h1>
+            <h2>Drivers de la generación GeForce 10 - RTX 20</h2>
+        </header>
+        <nav>
+            <aside>
+                <fieldset>
+                    <ul type="none">
+                         <!--me gustaria poder hacer anclas en la misma pagina-->
+                        <li><a href="#drivers1">Series GeForce 10</a></li>
+                        <li><a href="#drivers2">Series RTX 20</a></li>
+                    </ul>
+                </fieldset>
+            </aside>
+        </nav>
+        <section>
+            <h1 id="drivers1">Series GeForce 1000</h1>
+            <p>La serie <b>GeForce GTX 1000</b>, basada en la arquitectura <i>Pascal</i>, marcó un antes y un después en la eficiencia energética y el rendimiento por vatio. Introdujo un salto notable frente a generaciones previas, gracias a la adopción del proceso de 16 nm FinFET, memorias GDDR5X y una gestión térmica más inteligente. Modelos emblemáticos como la GTX 1060, GTX 1070 y GTX 1080 Ti ofrecieron un equilibrio ideal entre potencia y consumo, consolidándose como referencia en el gaming de alto rendimiento y la realidad virtual.</p>
+            <article>
+                <fieldset>Selecciona tu driver: 
+                    <select id="driver1000">
+                        <option value="">-- Selecciona un modelo --</option>
+                        <option value="geforce1020">GeForce1020</option>
+                        <option value="geforce1030">GeForce1030</option>
+                        <option value="geforce1040">GeForce1040</option>
+                    </select>
+                    </br>
+                    <img id="imagen1000" src="" alt="Tarjeta gráfica" style="opacity: 0;" height="200">
+                    <script>
+                        const select = document.getElementById("driver1000");
+                        const img = document.getElementById("imagen1000");
+
+                        const imagen1000 = {
+                            "geforce1020": "1020.png",
+                            "geforce1030": "1030.png",
+                            "geforce1040": "1040.png"
+                        };
+                        select.addEventListener("change",()=>{
+                            const value = select.value;
+                            if (imagen1000[value]) {
+                                img.src = imagen1000[value];
+                                img.style.opacity = 1;
+                            } else {
+                                img.style.opacity = 0;
+                            }
+                        });
+                    </script>
+                </fieldset>
+            </article>
+        </section>
+        <section>
+            <h1 id="drivers2">Series RTX 2000</h1>
+            <p>La serie <b>RTX 2000</b> destaca por haber sido la primera en incorporar la arquitectura Turing y las tecnologías de ray tracing en tiempo real y el renderizado neuronal DLSS (Deep Learning Super Sampling). Estos avances permiten un rendimiento gráfico mucho más realista con iluminación y sombras precisas, y una mejora de la calidad de imagen en videojuegos sin sacrificar el rendimiento. Otras características clave son la memoria GDDR6 de alta velocidad, la inclusión de núcleos RT y Tensor para acelerar los cálculos de IA, y un mejor rendimiento general respecto a la generación anterior.</p>
+            <article>
+                <fieldset>Selecciona tu driver: 
+                    <select id="driver2000">
+                        <option value="">-- Selecciona un modelo --</option>
+                        <option value="rtx2020">RTX 2020</option>
+                        <option value="rtx2030">RTX 2030</option>
+                        <option value="rtx2040">RTX 2040</option>
+                    </select>
+                    </br>
+                    <img id="imagen2000" src="" alt="Tarjeta gráfica" style="opacity: 0;" height="200">
+                    <script>
+                        const select2 = document.getElementById("driver2000");
+                        const img2 = document.getElementById("imagen2000");
+
+                        const imagen2000 = {
+                            "rtx2020": "2020.png",
+                            "rtx2030": "2030.png",
+                            "rtx2040": "2040.png"
+                        };
+                        select2.addEventListener("change",()=>{
+                            const value2 = select2.value;
+                            if (imagen2000[value2]) {
+                                img2.src = imagen2000[value2];
+                                img2.style.opacity = 1;
+                            } else {
+                                img2.style.opacity = 0;
+                            }
+                        });
+                    </script>
+                </fieldset>
+            </article>
+        </section>
+        </br>
+        <footer>
+            <style>
+                .contenedor {
+                    display: flex;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: center;
+                    text-align: center;
+                }
+
+            </style>
+            <fieldset class="contenedor">
+                <div class="contenedor">
+                <a href="#inicio"><h3>Inicio</h3><img src="nvidia.gif" id="inicio" alt="nvidia moving logo" width="60"></a>
+                </div>
+                <div class="contenedor">
+                    <h3 style="justify-content: center;">Redes sociales:</h3>
+                    <a href="http://www.instagram.com">
+                        <img src="instagram.gif" alt="" width="60" height="60">
+                    </a>
+                    <a href="http://www.facebook.com">
+                        <img src="facebook.gif" href="" alt="" width="60" height="60">
+                    </a>
+                    <a href="http://www.x.com">
+                    <img src="twitter.gif" href="" alt="" width="60" height="60">
+                    </a>
+                </div>
+            </fieldset>
+            </br>
+            <a href="">Derechos de autor y propiedades</a>
+            </br>
+            </hr>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP 10 GRUPOS MUSICALES</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <h1>TOP 10 GRUPOS MUSICALES</h1>
+
+  <!-- Mensaje dinámico -->
+  <h2 id="mensaje"></h2>
+
+  <!-- Formulario -->
+  <form id="formCancion">
+    <label>Nombre del grupo:</label>
+    <input type="text" id="grupo" placeholder="Ej. Queen"><br>
+
+    <label>Nombre de la canción:</label>
+    <input type="text" id="cancion" placeholder="Ej. Bohemian Rhapsody"><br>
+
+    <label>Nombre de usuario:</label>
+    <input type="text" id="usuario" placeholder="Tu nombre"><br>
+
+    <button type="button" id="btnAgregar">Añadir canción</button>
+  </form>
+
+  <!-- Tabla -->
+  <table id="tablaTop">
+    <thead>
+      <tr>
+        <th>Puesto</th>
+        <th>Grupo</th>
+        <th>Canción</th>
+        <th>Usuario</th>
+        <th>Borrar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Filas dinámicas aquí -->
+    </tbody>
+  </table>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

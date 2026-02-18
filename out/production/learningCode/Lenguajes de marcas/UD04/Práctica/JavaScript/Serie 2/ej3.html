@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Crear usuario</title>
+
+    <script>
+        function validar() {
+
+            var nombre = document.getElementById("nombre").value;
+            var nick = document.getElementById("nick").value;
+            var pass = document.getElementById("pass").value;
+
+            if (nombre === "" || nick === "" || pass === "") {
+                alert("Todos los campos deben estar rellenos");
+                return false;
+            }
+
+
+            if (pass.length < 8) {
+                alert("La contraseña debe tener al menos 8 caracteres");
+                return false;
+            }
+
+            alert("Usuario creado correctamente");
+            return true;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h2>Crear usuario</h2>
+
+    <form onsubmit="return validar()">
+        <p>Nombre y apellidos: <input type="text" id="nombre"></p>
+        <p>Nick: <input type="text" id="nick"></p>
+        <p>Contraseña: <input type="password" id="pass"></p>
+
+        <button type="submit">Crear usuario</button>
+    </form>
+
+</body>
+
+</html>

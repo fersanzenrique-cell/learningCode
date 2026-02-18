@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="hangar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="aviones" type="GrupoAviones"/>
+        <xs:element name="helicopteros" type="GrupoHelis"/>
+        <xs:element name="drones" type="GrupoDrones"/>
+      </xs:sequence>
+      <xs:attribute name="geolocalizacion" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- ===== AVIONES ===== -->
+  <xs:complexType name="GrupoAviones">
+    <xs:sequence>
+      <xs:element name="avion" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asignacion" type="Asignacion" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="tipo" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===== HELICOPTEROS ===== -->
+  <xs:complexType name="GrupoHelis">
+    <xs:sequence>
+      <xs:element name="heli" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asignacion" type="Asignacion" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="tipo" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===== DRONES ===== -->
+  <xs:complexType name="GrupoDrones">
+    <xs:sequence>
+      <xs:element name="dron" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asignacion" type="Asignacion" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="tipo" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===== ASIGNACION ===== -->
+  <xs:complexType name="Asignacion">
+    <xs:sequence>
+      <xs:element name="informacion" type="Informacion"/>
+    </xs:sequence>
+    <xs:attribute name="nombre-nato" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- ===== INFORMACION ===== -->
+  <xs:complexType name="Informacion">
+    <xs:sequence>
+      <xs:element name="radar-signature" type="RadarSignature"/>
+      <xs:element name="radar-distance" type="RadarDistance"/>
+      <xs:element name="areal-range" type="Range"/>
+      <xs:element name="top-speed" type="TopSpeed"/>
+      <xs:element name="armamento" type="Armamento"/>
+      <xs:element name="desc" type="Descripcion"/>
+    </xs:sequence>
+    <xs:attribute name="veridica" type="xs:boolean" default="true"/>
+  </xs:complexType>
+
+  <xs:complexType name="RadarSignature">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="es-sigilo" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="RadarDistance">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Range">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="has-air-refueling" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="TopSpeed">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="has-afterburner" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Armamento">
+    <xs:sequence>
+      <xs:element name="aire-tierra" type="Armas"/>
+      <xs:element name="aire-aire" type="Armas"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Armas">
+    <xs:sequence>
+      <xs:element name="misiles" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="gravedad" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="rifle" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Descripcion">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="generacion" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

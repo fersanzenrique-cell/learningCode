@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>título</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <script>
+
+            function main () {
+                let num;
+                do {
+
+                    num = Number(prompt('Ingresa un número', 0));
+                    casoDeUso(num);
+
+                } while (num != 0)
+            }
+            
+            function casoDeUso (num) {
+                
+                if (num % 2 == 0) {
+                    document.writeln(" El ", num, " es par. ");
+                } else {
+                    document.writeln(" El ", num, " es impar. ");
+                }
+
+            }
+
+            main();
+
+        </script>
+        <div>
+            
+        </div>
+    </body>
+</html>

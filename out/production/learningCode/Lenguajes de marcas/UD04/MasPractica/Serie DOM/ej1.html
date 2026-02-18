@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>Ejercicio 1</title>
+    </head>
+    <body>
+        <h1>Ejercicio 1</h1>
+        <p>Este es el primer ejercicio de la serie DOM.</p>
+        <button id="boton" onclick="añadirTexto()">Añadir texto</button>
+        <button id="boton2" onclick="borrarPrimerTexto()">Borrar primer texto</button>
+        <button id="boton3" onclick="borrarUltimoTexto()">Borrar último texto</button>
+        <br/>
+        <ol>
+            <li>Elemento 1</li>
+            
+        </ol>
+    </body>
+    <script type="text/javascript">
+        function añadirTexto() {
+            var texto = prompt("Introduzca el texto a añadir:", "");
+            console.log(texto);
+            var li = document.createElement("li");
+            li.textContent = texto;
+            document.querySelector("ol").appendChild(li);
+        }
+        function borrarPrimerTexto() {
+            var ol = document.querySelector("ol");
+            if (ol.firstElementChild) {
+                ol.removeChild(ol.firstElementChild);
+            } else {
+                alert("No hay elementos para borrar.");
+            }
+        }
+        function borrarUltimoTexto() {
+            var ol = document.querySelector("ol");
+            if (ol.lastElementChild) {
+                ol.removeChild(ol.lastElementChild);
+            } else {
+                alert("No hay elementos para borrar.");
+            }
+        }
+    </script>
+</html>

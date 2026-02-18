@@ -1,0 +1,16 @@
+{
+    "pintor" : "José Miguel Palacio",
+    "fechaNacimiento": "14091950",
+    "lugarNacimiento": "Zaragoza",
+    "fechaMuerte": null,
+    "lugarMuerte": null,
+    "listadoObras": [{
+        "tituloObra" : "Puesto de Especias del Mercado"
+    },
+    {
+        "tituloObra" : "Gran Vía desde plaza de Callao a edificio Telefónica"
+    },
+    {
+        "tituloObra" : "La Esquina del Bernabéu"
+    }]
+}

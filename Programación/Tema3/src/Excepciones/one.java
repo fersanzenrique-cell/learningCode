@@ -27,7 +27,7 @@ public class one {
             System.out.println("El otro número tampoco es un número entero");
             System.out.println(ex);
 
-        } catch (StringIndexOutOfBoundsException ex | Exception ex) { // excepción 4, dos excepciones!!, se ponen mas con un | 
+        } catch (StringIndexOutOfBoundsException ex) { // excepción 4, dos excepciones!!, se ponen mas con un |
 
             System.out.println("Accediste a una posición inexistente de la cadena");
             System.out.println(ex);
@@ -46,10 +46,9 @@ public class one {
             System.out.println("Se produjo un error inesperado");
             System.out.println(ex);
         */
-        } finally {
 
-            sc.close();
+        sc.close();
 
-        }
+
     }
 }

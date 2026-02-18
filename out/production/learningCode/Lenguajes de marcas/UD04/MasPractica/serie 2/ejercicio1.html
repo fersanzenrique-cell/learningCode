@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <link rel="stylesheet" href="./style.css">
+        <title>Añadir alumnos</title>
+        
+    </head>
+    <style>
+        img {
+            height: 300;
+        }
+    </style>
+    <body>
+        <button onclick="addText()">click here</button>
+        <button onclick="addImage()">click here v2</button>
+    </body>
+</html>
+
+<script>
+    function addText(){
+        var p = document.createElement('p');
+        p.appendChild(document.createTextNode('He sido añadido con javascript'));
+        document.body.appendChild(p);
+    }
+    function addImage(){
+        var img = document.createElement('img');
+        img.src = 'amongus.png';
+        document.body.appendChild(img);
+    }
+</script>
+

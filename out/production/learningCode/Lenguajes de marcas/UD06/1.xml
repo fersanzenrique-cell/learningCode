@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "1.dtd">
+<libro>
+    <titulo>
+        Lo que el viento se llevó
+    </titulo>
+    <autor>
+        <nombre>Cristina</nombre>
+        <apellidos>Rebollo</apellidos>
+    </autor>
+    <ano-publicacion>2025</ano-publicacion>
+    <resumen></resumen>
+    <capitulos>
+        <capitulo>
+            <numero>1</numero>
+            <titulo-cap>Capitulo1</titulo-cap>
+        </capitulo>
+    </capitulos>
+</libro>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cd titulo="In the court of the crimson king">
+    <artista fecha-nacimiento="13021969" lugar-nacimiento="Londres">King Crimson</artista> <!--Nacimiento del grupo, en este caso-->
+    <fecha-creacion>10101969</fecha-creacion>
+    <genero>Rock</genero>
+    <canciones>
+        <cancion duracion="444">21st Century Schizoid Man</cancion>
+        <cancion duracion="365">I Talk To The Wind</cancion>
+        <cancion duracion="528">Epitaph (including March for No Reason and Tomorrow and Tomorrow)</cancion>
+    </canciones>
+</cd>

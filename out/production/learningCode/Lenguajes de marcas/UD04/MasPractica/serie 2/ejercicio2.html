@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description">
+        <title>Añadir alumnos</title>
+        <script type="text/javascript">
+            function addText() {
+
+                var texto = document.getElementById("alumno").value;
+                console.log(texto);
+                var p = document.createElement("p");
+                p.textContent = texto;
+                document.getElementById('lista').appendChild(p);
+                
+
+                var contador = document.getElementById("lista").childElementCount;
+                console.log(contador)
+                if (contador > 3) {
+                    document.getElementById("lista").removeChild(p);
+                    addImage();
+                }
+            }
+
+            function addImage() {
+                var img = document.createElement('img');
+                console.log('imagen');
+                img.src = 'amongus.png';
+                document.body.appendChild(img);
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        <h1>Alumnos de la clase DAW</h1>
+        <p>Pulsa escriba el nombre y pulsa el botón:</p>
+        <p>
+            <input id="alumno" type="text"/>
+            <button id="añadir" onclick="addText()">Añadir</button>
+        </p>
+        <div id="lista" class="listaAlumnos">
+            
+        </div>
+    </body>
+</html>
