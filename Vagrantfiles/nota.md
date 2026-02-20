@@ -1,0 +1,1 @@
+# Crea un enlace duro entre el sistema y los archivos de dentro 
