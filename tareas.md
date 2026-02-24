@@ -25,3 +25,4 @@
 > ---
 > ## Tareas Grandes
 >> - [ ] Recrear EmpersaApp con la guia de acentur al principio del aula virtual de programacion, 
+>> - [ ] Haz un poker
