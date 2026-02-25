@@ -78,3 +78,5 @@ INSERT INTO Tabla_Empleado VALUES (7,'Marta Lopez','Gerente',NULL,6000.00,450.00
 INSERT INTO Tabla_Empleado VALUES (8,'Jose Perez','Comercial',7,2700.00,250.00,3);
 INSERT INTO Tabla_Empleado VALUES (9,'Raquel Fernandez','Comercial',7,2300.00,220.00,3);
 INSERT INTO Tabla_Empleado VALUES (10,'David Jimenez','Gerente',NULL,6500.00,500.00,4);
+
+commit;
