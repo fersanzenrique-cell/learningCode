@@ -8,7 +8,7 @@ a) Hacer un bloque anónimo que comprueba si el precio del artículo 'A001' es m
 declare 
     v_reg Tabla_Articulos%rowtype;
 begin
-    select * into v_reg where codigo='A001';
+    select * into v_reg from Tabla_Articulos where codigo='A001';
     if v_reg.precio > 10 then 
         dbms_output.put_line(v_reg.codigo || v_reg.nombre || v_reg.precio || v_reg.IVA);
     end if;
@@ -21,9 +21,10 @@ b) Hacer un bloque anónimo que muestre por pantalla el artículo de mayor preci
 declare 
     v_reg Tabla_Articulos%rowtype;
 begin
-    select * into v_reg order by price desc limit 1;
+    select * into v_reg from Tabla_Articulos order by precio desc fetch first 1 rows only;
     dbms_output.put_line(v_reg.codigo || v_reg.nombre || v_reg.precio || v_reg.IVA);
 end;
+/
 
 /*
 c) Hacer un bloque anónimo que actualice el precio del artículo ‘A005’ según las siguientes
@@ -37,7 +38,7 @@ condiciones:
 declare 
     v_reg Tabla_Articulos%rowtype;
 begin
-    select * into v_reg where codigo='A005';
+    select * into v_reg from Tabla_Articulos where codigo='A005';
     if v_reg.precio > 40 then
         update Tabla_Articulos set v_reg.precio = v_reg.precio * 1.05;
     elsif v_reg.precio > 20 and v_reg.precio < 40 then
@@ -46,6 +47,7 @@ begin
         update Tabla_Articulos set v_reg.precio = v_reg.precio + 1;
     end if;
 end;
+/
 
 /*
 d) Hacer un bloque anónimo similar al del apartado c donde el usuario introduzca por
@@ -57,9 +59,10 @@ declare
     precioMod number := &precioMod;
     v_reg Tabla_Articulos%rowtype;
 begin
-    select * into v_reg where codigo=codigoMod;
+    select * into v_reg from Tabla_Articulos where codigo=codigoMod;
     update Tabla_Articulos set v_reg.precio = precioMod;
 end;
+/
 
 /*
 2. Usar las tablas Alumnos y AlumnosInf

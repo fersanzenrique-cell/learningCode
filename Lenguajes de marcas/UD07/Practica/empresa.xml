@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
+<empresa>
+    <investigacion>
+        <empleado>
+            <nombre>Fedra Dominguez</nombre>
+            <trabajo>Diseñador</trabajo>
+            <sueldo>2500.00</sueldo>
+        </empleado>
+        <empleado>
+            <nombre>Pedro Martin</nombre>
+            <trabajo>Programador</trabajo>
+            <sueldo>2800.00</sueldo>
+        </empleado>
+        <empleado>
+            <nombre>Fedra Dominguez</nombre>
+            <trabajo>Programador</trabajo>
+            <sueldo>3100.00</sueldo>
+        </empleado>
+    </investigacion>
+    <marketing>
+        <empleado>
+            <nombre>Laura Garijo</nombre>
+            <trabajo>Redactor</trabajo>
+            <sueldo>2530.00</sueldo>
+        </empleado>
+        <empleado>
+            <nombre>Maria Mateos</nombre>
+            <trabajo>Gerente de Marketing</trabajo>
+            <sueldo>5000.00</sueldo>
+        </empleado>
+    </marketing>
+</empresa>

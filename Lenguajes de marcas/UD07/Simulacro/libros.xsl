@@ -1,5 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="libreria">
+    <xsl:template match="/">
         <html>
             <head>
                 <title>Tabla de libros</title>
@@ -39,7 +39,7 @@
                         <th>Genero</th>
                         <th>Precio</th>
                     </tr>
-                    <xsl:for-each select="libro">
+                    <xsl:for-each select="libreria/libro">
                         <tr>
                             <td>
                                 <xsl:value-of select="titulo"/>
