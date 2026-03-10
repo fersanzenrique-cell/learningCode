@@ -129,12 +129,21 @@ el importe total vendido a los clientes de la zona centro. Debe aparecer el mens
 
 DECLARE
     cursor updateZona is 
-        select * from clientes;
+        select distinct clientes.domicilio, clientes.zona, productos.precio_uni from clientes 
+        inner join ventascp
+        on clientes.nif = ventascp.nif
+        inner join productos
+        on ventascp.cod_producto = productos.cod_producto;
     v_precioTotal integer := 0;
 BEGIN
-    for row in updateZona loop
-        if row.domicilio='Madrid' then
-            update clientes set zona=centro;
+    for fila in updateZona loop
+        if fila.domicilio='Madrid' then
+            update clientes set zona='Centro';
+            v_precioTotal := v_precioTotal + fila.precio_uni;
         else 
+            update clientes set zona='Norte';
+        end if;
+
     end loop;
 END;
+/

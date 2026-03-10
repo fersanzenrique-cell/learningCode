@@ -1,0 +1,45 @@
+{
+    "peliculas" : [
+        {
+        "pelicula" : "1",
+        "informacion" : [{
+        "nombre" : "spongebob big guy pants ok",
+        "director" : "no lo quiero saber",
+        "yearestreno" : "2026",
+        "precio por formato" : [{
+            "dvd" : 56.43,
+            "bluray" : 67.23,
+            "digital" : 23.87
+        }],
+        "nombreimagen" : "spongebob.jpg"
+        },
+        {
+        "pelicula" : "2",
+        "informacion" : [{
+        "nombre" : "joker",
+        "director" : "skibidi",
+        "yearestreno" : "2013",
+        "precio por formato" : [{
+            "dvd" : 56.43,
+            "bluray" : 87.23,
+            "digital" : 27.87
+        }],
+        "nombreimagen" : "joker.jpg"
+        }]
+        },
+        {
+        "pelicula" : "1",
+        "informacion" : [{
+        "nombre" : "estado geopolitico",
+        "director" : "arrroyos",
+        "yearestreno" : "2022",
+        "precio por formato" : [{
+            "dvd" : 56.43,
+            "bluray" : 67.23,
+            "digital" : 23.87
+        }],
+        "nombreimagen" : "guerra.jpg"
+        }]
+        }]      
+    }]
+}

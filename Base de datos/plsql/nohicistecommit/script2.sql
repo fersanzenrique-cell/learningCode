@@ -1,9 +1,8 @@
-
 CREATE TABLE clientes(
 	nif		VARCHAR2(10) NOT NULL,
 	nombre	VARCHAR2(15) NOT NULL,
 	domicilio	VARCHAR2(15),
-	zona varchar2(10),
+	zona VARCHAR2(10) NOT NULL,
     PRIMARY KEY (nif));
 
 CREATE TABLE productos(
@@ -28,14 +27,14 @@ CREATE TABLE ventascp(
         CONSTRAINT ck_unidades CHECK (unidades > 0));
 	
 	
-insert into Clientes values('111A', 'ANDRES', 'POZUELO' ); 
-insert into Clientes values('222B', 'JAIME', 'ARAVACA'); 
-insert into Clientes values('333C', 'TERESA', 'LAS ROZAS'); 
-insert into Clientes values('444D', 'VICENTE', 'MADRID');
-insert into Clientes values('555E', 'SANDRA', 'MADRID');
-insert into Clientes values('666F', 'ALBERTO', 'POZUELO');
-insert into Clientes values('777G', 'MIGUEL', 'POZUELO');
-insert into Clientes values('888H', 'MARINA','ARAVACA');	
+insert into Clientes values('111A', 'ANDRES', 'POZUELO' ,'CENTRO'); 
+insert into Clientes values('222B', 'JAIME', 'ARAVACA','CENTRO'); 
+insert into Clientes values('333C', 'TERESA', 'LAS ROZAS','CENTRO'); 
+insert into Clientes values('444D', 'VICENTE', 'MADRID','CENTRO');
+insert into Clientes values('555E', 'SANDRA', 'MADRID','CENTRO');
+insert into Clientes values('666F', 'ALBERTO', 'POZUELO','CENTRO');
+insert into Clientes values('777G', 'MIGUEL', 'POZUELO','CENTRO');
+insert into Clientes values('888H', 'MARINA','ARAVACA','CENTRO');	
 	
 
 insert into Productos values(1, 'PROCESADOR P133', 'PROCES', 15000, 0);
