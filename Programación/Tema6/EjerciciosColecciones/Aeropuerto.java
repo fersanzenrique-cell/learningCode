@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class Aeropuerto {
     private String nombre;
-    private TreeSet<Vuelo> vuelos;
+    private TreeSet<Vuelo> vuelos; /* El treeset puede prescindir del equals y del hashcode tiene un contain y un remove*/
     public Aeropuerto(String n){
         this.nombre = n;
         this.vuelos = new TreeSet<>();
