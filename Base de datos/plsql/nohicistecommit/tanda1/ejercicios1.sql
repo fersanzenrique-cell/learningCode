@@ -1,5 +1,5 @@
 set SERVEROUTPUT on;
-set LINESIZE 300 on; 
+set LINESIZE 300 on;
 
 /* 1º. Hacer un bloque anónimo que incremente el salario el 10% a los empleados que
 tengan una comisión superior al 5% del salario. (Tabla: emple) */
@@ -127,7 +127,7 @@ el importe total vendido a los clientes de la zona centro. Debe aparecer el mens
 “Se ha facturado un total de € a los clientes de la zona CENTRO.”
 */
 
- ALTER TABLE Clientes ADD Zona varchar2(10);
+ALTER TABLE Clientes ADD Zona varchar2(10);
 
 DECLARE
     cursor updateZona is 
