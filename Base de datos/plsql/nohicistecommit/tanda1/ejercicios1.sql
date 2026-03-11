@@ -127,6 +127,8 @@ el importe total vendido a los clientes de la zona centro. Debe aparecer el mens
 “Se ha facturado un total de € a los clientes de la zona CENTRO.”
 */
 
+ ALTER TABLE Clientes ADD Zona varchar2(10);
+
 DECLARE
     cursor updateZona is 
         select distinct clientes.domicilio, clientes.zona, productos.precio_uni from clientes 
@@ -137,13 +139,16 @@ DECLARE
     v_precioTotal integer := 0;
 BEGIN
     for fila in updateZona loop
-        if fila.domicilio='Madrid' then
-            update clientes set zona='Centro';
+
+        if fila.domicilio=UPPER('Madrid') then
+            update clientes set zona='CENTRO' where domicilio=UPPER('Madrid');
             v_precioTotal := v_precioTotal + fila.precio_uni;
         else 
-            update clientes set zona='Norte';
+            update clientes set zona='NORTE' where domicilio!=UPPER('Madrid');
         end if;
 
     end loop;
+    dbms_output.put_line('Se ha facturado un total de ' || v_precioTotal || '$ a los clientes de zona centro.');
 END;
 /
+
