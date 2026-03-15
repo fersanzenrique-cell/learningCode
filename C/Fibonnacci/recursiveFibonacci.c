@@ -12,6 +12,7 @@ int fib (int n) {
 }
 
 int main () {
+    fib(2);
     return 0;
     // En java no es necesario indicar return si es void, sin embargo en c si
     // En este caso nuestro main devuelve un 0, int
