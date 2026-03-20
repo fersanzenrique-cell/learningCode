@@ -1,7 +1,11 @@
 package Java.ProyectoRedes;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class puebas {
     public static void main(String[] args) {
+        /*
         String mascara = "";
         for (int i = 0; i < 0+1;i++) {
             mascara += "255.";
@@ -20,6 +24,10 @@ public class puebas {
         int resultadoHost = Integer.parseInt(binarioHost,2); 
 
         System.out.println(mascara + resultadoHost);
-        
+        */
+        Set<Integer> alberto = new HashSet<>();
+        alberto.add(5);
+
+
     }
 }

@@ -38,3 +38,8 @@
     >> - Usar lambda
 > 6. override
 
+> 7. direccion por referencia, o por valor?
+> 8. String, tipo de dato inmutable, .equals()
+> 9. String pool, heap., un '==' puede funcionar si el string ya esta almacenado en el pool.
+> 
+> 

@@ -6,6 +6,7 @@ public class Esquema {
     private String barra;
     private static Set<Router> routers;
 
+    
     private static Set<Red> redes;
     private static Set<SubRed> subredes;
     Esquema(String ip, String barra) {
@@ -80,6 +81,8 @@ public class Esquema {
                 }
             }
         }
+        /* Claro pero cuando es un tipo a se queda asi 255.224, tendria que ser 255.224.0.0 */
+        /* Se puede usar unsigned con el tipo Byte */
         int resultadoHost = Integer.parseInt(binarioHost,2);
         return mascara + resultadoHost;
         
