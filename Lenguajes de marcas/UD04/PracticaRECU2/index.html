@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio de Repaso</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Mi Lista de la Compra</h1>
+        <p>Añade tus articulos y bórralos cuando ya los tengas.</p>
+        <p id="MensajeDinamico">Añade tu primer artículo</p>
+        <form>
+            <label for="Articulo">Artículo:</label>
+            <br>
+            <input type="text" name="Articulo" id="Articulo" placeholder="Escribe el nombre">
+            <br>
+            <label for="Cantidad">Cantidad:</label>
+            <br>
+            <input type="text" name="Cantidad" id="Cantidad" placeholder="Escribe cuantos">
+            <br>
+            <label for="Categoria">Categoria:</label>
+            <br>
+            <input type="text" name="Categoria" id="Categoria" placeholder="Escribe la categoria">
+            <br>
+            <button type="submit" id="btnSubmit">Añadir a la lista</button>
+            <button type="reset" id="btnReset">Limpiar</button>
+        </form>
+        <table>
+            <tbody id="tabla">
+                <tr>
+                    <th>#</th>
+                    <th>Árticulo</th>
+                    <th>Cantidad</th>
+                    <th>Categoria</th>
+                    <th>Borrar</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
