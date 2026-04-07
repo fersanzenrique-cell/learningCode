@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de lenguaje de marcas</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <h1>Lista de contactos</h1>
+        <p id="mensaje">Añade tu primer contacto</p>
+        <form>
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="telefono">Telefono :</label>
+            <input type="text" id="telefono">
+            <br>
+            <button id="btnAgregar" type="button">Añadir contacto</button>
+            <button type="reset">Limpiar formulario</button>
+        </form>
+        <table>
+            <tbody id="tabla">
+                <tr>
+                    <th>nº</th><th>Nombre</th><th>Telefono</th><th>Acción</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
