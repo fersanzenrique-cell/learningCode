@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <producto categoria="ropa">
+        <nombre>Camiseta</nombre>
+        <precio divisa="USD">15.00</precio>
+        <descripcion>Camiseta de algodón</descripcion>
+        <tallas>
+            <talla>S</talla>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+        </tallas>
+    </producto>
+    <producto categoria="ropa">
+        <nombre>Pantalón</nombre>
+        <precio divisa="EUR">32.95</precio>
+        <descripcion>Pantalón de pana</descripcion>
+        <tallas>
+        <talla>28</talla>
+        <talla>30</talla>
+        <talla>32</talla>
+        <talla>34</talla>
+        </tallas>
+    </producto>
+    <producto categoria="calzado">
+        <nombre>Zapatillas Nike</nombre>
+        <precio divisa="USD">40.00</precio>
+        <descripcion>Zapatos deportivos</descripcion>
+        <tallas>
+            <talla>38</talla>
+            <talla>39</talla>
+            <talla>40</talla>
+            <talla>41</talla>
+            <talla>42</talla>
+            <talla>43</talla>
+            <talla>44</talla>
+        </tallas>
+    </producto>
+    <producto categoria="accesorios">
+        <nombre>Cinturon</nombre>
+        <precio divisa="EUR">10.99</precio>
+        <descripcion>Cinturon de cuero</descripcion>
+        <tallas>
+            <talla>Única</talla>
+        </tallas>
+    </producto>
+</productos>
+
