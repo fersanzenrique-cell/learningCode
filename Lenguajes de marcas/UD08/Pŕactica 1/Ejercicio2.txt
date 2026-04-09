@@ -1,0 +1,37 @@
+Práctica 1º XQUERY
+
+1. El modelo de las impresoras de tipo láser.
+
+for $x in impresoras/impresora[@tipo = "láser"]
+return $x/modelo
+
+2. La marca y modelo (separados por un espacio en blanco) de las impresoras con más de un tamaño.
+
+
+
+3. La marca y modelo (separados por un espacio en blanco) de las impresoras con tamaño A3 (pueden
+
+tener otros).
+4. La marca y modelo (separados por un espacio en blanco) de las impresoras con tamaño A3 como único
+tamaño.
+
+5. El modelo de las impresoras en red. La salida tiene que ser de la siguiente forma:
+<ul>
+</ul>
+<li>modelo_impresora</li>
+<li>modelo_impresora</li>
+<li>modelo_impresora</li>
+
+6. La cantidad de impresoras guardadas en el fichero XML.
+
+7. Las impresoras compradas en 2018 o después. Los resultados se deben ordenar por año de compra
+(orden descendiente).
+
+8. Las impresoras con un peso igual o superior a 5 kg. La salida debe ser asi:
+<impresora>
+<marca>…</marca>
+<modelo>…</modelo>
+</impresora>
+9. Las impresoras que tienen cartucho con código C-456P.
+
+10. La impresora más pesada.
