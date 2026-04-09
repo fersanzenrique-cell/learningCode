@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <producto categoria="electronica">
+        <nombre>Smartphone</nombre>
+        <precio divisa="USD">299.99</precio>
+        <descripcion>Teléfono inteligente</descripcion>
+        <colores>
+            <color>Negro</color>
+            <color>Blanco</color>
+            <color>Azul</color>
+        </colores>
+    </producto>
+    <producto categoria="electronica">
+        <nombre>Laptop</nombre>
+        <precio divisa="USD">799.50</precio>
+        <descripcion>Portátil de 16GB RAM</descripcion>
+        <colores>
+            <color>Gris</color>
+            <color>Negro</color>
+        </colores>
+    </producto>
+    <producto categoria="hogar">
+        <nombre>Aspiradora</nombre>
+        <precio divisa="EUR">120.00</precio>
+        <descripcion>Aspiradora sin bolsa</descripcion>
+        <colores>
+            <color>Rojo</color>
+        </colores>
+    </producto>
+    <producto categoria="accesorios">
+        <nombre>Reloj</nombre>
+        <precio divisa="USD">45.00</precio>
+        <descripcion>Reloj de pulsera</descripcion>
+        <colores>
+            <color>Negro</color>
+            <color>Marrón</color>
+        </colores>
+    </producto>
+</inventario>

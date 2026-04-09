@@ -7,31 +7,84 @@ return $x/modelo
 
 2. La marca y modelo (separados por un espacio en blanco) de las impresoras con más de un tamaño.
 
-
+for $impresora in impresoras/impresora[count(tamano) > 1]
+return(concat("Marca: ", $impresora/marca," | Modelo: ",$impresora/modelo))
 
 3. La marca y modelo (separados por un espacio en blanco) de las impresoras con tamaño A3 (pueden
-
 tener otros).
+
+for $impresora in impresoras/impresora
+where $impresora/tamano="A3"
+return(concat("Marca: ", $impresora/marca," | Modelo: ", $impresora/modelo))
+
 4. La marca y modelo (separados por un espacio en blanco) de las impresoras con tamaño A3 como único
 tamaño.
 
+for $impresora in impresoras/impresora
+where $impresora[tamano="A3" and count(tamano) = 1]
+return(concat("Marca: ", $impresora/marca," | Modelo: ",$impresora/modelo))
+
+o asi
+
+for $i in impresoras/impresora
+where every $t in $i/tamano satisfies $t = "A3"
+return concat("Marca: ", $i/marca, " | Modelo: ", $i/modelo)
+
 5. El modelo de las impresoras en red. La salida tiene que ser de la siguiente forma:
 <ul>
+<li>modelo_impresora</li>
+<li>modelo_impresora</li>
+<li>modelo_impresora</li>
 </ul>
-<li>modelo_impresora</li>
-<li>modelo_impresora</li>
-<li>modelo_impresora</li>
+
+<ul>
+{
+for $i in impresoras/impresora
+where $i/enred
+return <li>{data($i/modelo)}</li>
+}
+</ul>
 
 6. La cantidad de impresoras guardadas en el fichero XML.
 
+count(doc("Ejercicio2.xml")//impresora)
+
+count(impresoras/impresora)
+
+let $i := impresoras/impresora
+return count($i)
+
 7. Las impresoras compradas en 2018 o después. Los resultados se deben ordenar por año de compra
 (orden descendiente).
+
+for $i in impresoras/impresora
+where $i[number(@compra) >= 2018]
+order by $i[number(@compra)] descending
+return $i
 
 8. Las impresoras con un peso igual o superior a 5 kg. La salida debe ser asi:
 <impresora>
 <marca>…</marca>
 <modelo>…</modelo>
 </impresora>
+
+for $i in impresoras/impresora
+where $i[peso >= 5]
+return
+	<impresora>
+      <marca>{data($i/marca)}</marca>
+      <modelo>{data($i/modelo)}</modelo>
+    </impresora>
+
 9. Las impresoras que tienen cartucho con código C-456P.
 
+for $i in impresoras/impresora
+where $i[cartucho = "C-456P"]
+return $i
+
 10. La impresora más pesada.
+
+impresoras/impresora[max(peso)]
+
+let $i := impresoras/impresora[max(peso)]
+return $i
