@@ -1,0 +1,35 @@
+Ejercicio 2 XQuery
+1. Listar todos los colores del producto Smartphone.
+
+    for $p in //producto[nombre="Smartphone"]
+    return $p/colores/color
+
+2. Nombres de productos cuyo precio sea mayor o igual a 100.
+
+    for $p in //producto[precio >= 100]
+    return $p/nombre
+
+3. Nombre del producto con el precio más alto.
+
+    let $max := max(//producto/precio)
+    for $p in //producto[precio = $max]
+    return $p/nombre
+
+4. Contar el número total de productos.
+
+    count(//producto)
+
+5. Nombres de productos de la categoría electrónica.
+
+    for $p in //producto[@categoria="electronica"]
+    return $p/nombre
+
+6. Nombre del producto que tiene más de 2 colores.
+
+    for $p in //producto[count(colores/color) > 2]
+    return $p/nombre
+
+7. Categoría del producto que tiene color Rojo.
+
+    for $p in //producto[colores/color="Rojo"]
+    return $p/@categoria

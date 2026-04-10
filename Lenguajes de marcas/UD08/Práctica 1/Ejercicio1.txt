@@ -2,40 +2,40 @@ Práctica 1º XPATH
 
 1. Extraer todos los elementos <talla> del producto con nombre Camiseta.
 
-/productos/producto[nombre="Camiseta"]//tallas//talla
+    /productos/producto[nombre="Camiseta"]//tallas//talla
 
 2. Todos los elementos <nombre> de los productos cuyo precio es mayor o igual a 15.
 
-/productos/producto[precio>=15]/nombre
+    /productos/producto[precio>=15]/nombre
 
 3. El nombre del producto con el precio más alto.
 
-/productos/producto[precio=max(/productos/producto/precio)]/nombre
+    /productos/producto[precio=max(/productos/producto/precio)]/nombre
 
 4. Número de productos que hay en el XML.
 
-count(/productos/producto)
+    count(/productos/producto)
 
 5. El nombre e los productos de la categoría ropa.
 
-/productos/producto[@categoria="ropa"]/nombre
+    /productos/producto[@categoria="ropa"]/nombre
 
 6. Nombre del producto que tiene más de 4 tallas disponible
 
-/productos/producto[count(tallas/talla) > 4]/nombre
+    /productos/producto[count(tallas/talla) > 4]/nombre
 
 7. Cuál es la categoría del producto que tiene talla Unica.
 
-/productos/producto[tallas/talla="Única"]/@categoria
+    /productos/producto[tallas/talla="Única"]/@categoria
 
 8. El nombre de los productos cuyo precio esté en euros (EUR).
 
-/productos/producto[precio/@divisa="EUR"]/nombre
+    /productos/producto[precio/@divisa="EUR"]/nombre
 
 9. Todos los elementos <nombre> de los productos cuya descripción contiene la palabra deportiva.
 
-/productos/producto[descripcion/contains(text(),"deportiva")]/nombre
+    /productos/producto[descripcion/contains(text(),"deportiva")]/nombre
 
 10. Nombre y categoría de los productos con más de 30 unidades.
 
-/productos[count(producto/tallas/talla) > 30]// @categoria | //nombre
+    /productos[count(producto/tallas/talla) > 30]// @categoria | //nombre

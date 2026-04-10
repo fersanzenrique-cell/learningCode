@@ -1,0 +1,28 @@
+Ejercicio 1 Xpath
+1. Extraer todos los colores del producto Smartphone.
+
+    //producto[nombre="Smartphone"]/colores/color
+
+2. Todos los nombres de productos cuyo precio sea mayor o igual a 100.
+
+    //producto[precio >= 100]/nombre
+
+3. El nombre del producto con el precio más alto.
+
+    //producto[precio = max(//producto/precio)]/nombre
+
+4. Número total de productos en el inventario.
+
+    count(//producto)
+
+5. Nombres de los productos de la categoría electrónica.
+
+    //producto[@categoria="electronica"]/nombre
+
+6. Nombre del producto que tiene más de 2 colores disponibles.
+
+    //producto[count(colores/color) > 2]/nombre
+
+7. Categoría del producto que tiene color Rojo.
+
+    //producto[colores/color="Rojo"]/@categoria
