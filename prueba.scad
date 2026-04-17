@@ -1,0 +1,29 @@
+color([0.6,0.6,0.6],0.5)
+    square(60,true);
+translate([5,0,0])
+    color([0.4,0.4,0.5])
+    cube([10,10,50]);
+translate([-15,0,0])
+    color([0.4,0.4,0.5])
+    cube([10,10,50]);
+translate([0,-5,0.2])
+    color([0.5,0.5,0.5])
+    square([100,5],true);
+translate([0,0,0.2])
+    color([0.5,0.5,0.5])
+    square([5,100],true);
+translate([-40,4,40])
+    color([0.6,0.6,0.6],1)
+    square([10,2],true);
+translate([-40,2,40])
+    color([0.6,0.6,0.6],1)
+    rotate([0,0,30])
+    square([6,1],true);
+translate([-40,6,40])
+    color([0.6,0.6,0.6],1)
+    rotate([0,0,-30])
+    square([6,1],true);
+translate([-45,4,41])
+    color([0.6,0.6,0.6],1)
+    rotate([0,50,0])
+    square([3,1],true);
